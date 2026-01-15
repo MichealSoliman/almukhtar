@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة المختار لنقل العفش بجدة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .nav-link {
+            position: relative;
+            padding: 8px 0;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(to left, #0d47a1, #ff9800);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .nav-link.active::after {
+            width: 100%;
+        }
+        
+        .sticky-nav {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .mobile-menu-open {
+            max-height: 500px;
+            opacity: 1;
+            transition: all 0.4s ease-in-out;
+        }
+        
+        .mobile-menu-closed {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.4s ease-in-out;
+        }
+    </style>
+</head>
+<body class="pt-24 bg-gray-50">
+    
+    <!-- Header / Navbar المحسّن -->
+    <header id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500 py-3 lg:py-4 bg-white/95 backdrop-blur-sm shadow-md">
+        <div class="container mx-auto px-4 xl:px-6">
+            <div class="flex justify-between items-center">
+                <!-- Logo واسم الشركة -->
+                <div class="flex items-center space-x-reverse space-x-3 rtl:space-x-reverse">
+                    <!-- Logo -->
+                    <div class="flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl shadow-lg">
+                        <i class="fas fa-truck-moving text-white text-xl lg:text-2xl"></i>
+                    </div>
+                    
+                    <!-- اسم الشركة -->
+                    <div class="flex flex-col">
+                        <a href="index.html" class="flex flex-col">
+                            <span class="text-xl lg:text-2xl font-extrabold text-gray-800 leading-tight">
+                                شركة المختار
+                            </span>
+                            <span class="text-sm lg:text-base font-semibold bg-gradient-to-l from-blue-600 to-orange-500 bg-clip-text text-transparent">
+                                لنقل العفش بجدة
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-reverse space-x-8 xl:space-x-10">
+                    <a href="index.html" class="nav-link text-gray-700 hover:text-blue-700 active text-base font-medium">
+                        الرئيسية
+                    </a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-700 text-base font-medium">
+                        من نحن
+                    </a>
+                    <a href="#services" class="nav-link text-gray-700 hover:text-blue-700 text-base font-medium">
+                        خدماتنا
+                    </a>
+                    <a href="blog.html" class="nav-link text-gray-700 hover:text-blue-700 text-base font-medium">
+                        المدونة
+                    </a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-blue-700 text-base font-medium">
+                        اتصل بنا
+                    </a>
+                </nav>
+
+                <!-- Buttons -->
+                <div class="flex items-center space-x-reverse space-x-3 rtl:space-x-reverse">
+                    <!-- WhatsApp Button -->
+                    <a href="https://wa.me/966500000000" 
+                       class="bg-gradient-to-l from-green-500 to-green-600 text-white px-4 lg:px-5 py-2 lg:py-2.5 rounded-full font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 flex items-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        <i class="fab fa-whatsapp ml-2 text-lg lg:text-xl"></i> 
+                        <span class="hidden sm:inline text-sm lg:text-base">واتساب</span>
+                    </a>
+                    
+                    <!-- Call Button for Medium+ Screens -->
+                    <a href="tel:+966500000000" 
+                       class="hidden md:flex bg-gradient-to-l from-blue-600 to-blue-700 text-white px-4 lg:px-5 py-2 lg:py-2.5 rounded-full font-bold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 items-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        <i class="fas fa-phone ml-2 text-base lg:text-lg"></i> 
+                        <span class="text-sm lg:text-base">اتصل الآن</span>
+                    </a>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="lg:hidden text-gray-700 text-2xl focus:outline-none hover:text-blue-600 transition-colors duration-300" 
+                            id="mobile-menu-btn" 
+                            aria-label="فتح القائمة">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu-closed lg:hidden bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-xl">
+            <div class="container mx-auto px-4 py-5">
+                <div class="flex flex-col space-y-4">
+                    <a href="index.html" 
+                       class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
+                        <i class="fas fa-home ml-3 text-blue-600"></i>
+                        الرئيسية
+                    </a>
+                    <a href="#about" 
+                       class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
+                        <i class="fas fa-info-circle ml-3 text-blue-600"></i>
+                        من نحن
+                    </a>
+                    <a href="#services" 
+                       class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
+                        <i class="fas fa-concierge-bell ml-3 text-blue-600"></i>
+                        خدماتنا
+                    </a>
+                    <a href="blog.html" 
+                       class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
+                        <i class="fas fa-newspaper ml-3 text-blue-600"></i>
+                        المدونة
+                    </a>
+                    <a href="contact.html" 
+                       class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium flex items-center">
+                        <i class="fas fa-phone-alt ml-3 text-blue-600"></i>
+                        اتصل بنا
+                    </a>
+                    
+                    <!-- Mobile Contact Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3 mt-4 pt-4 border-t border-gray-100">
+                        <a href="tel:+966500000000" 
+                           class="bg-gradient-to-l from-blue-600 to-blue-700 text-white px-5 py-3 rounded-lg font-bold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 flex items-center justify-center shadow-md">
+                            <i class="fas fa-phone ml-2"></i> 
+                            اتصل الآن
+                        </a>
+                        <a href="https://wa.me/966500000000" 
+                           class="bg-gradient-to-l from-green-500 to-green-600 text-white px-5 py-3 rounded-lg font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 flex items-center justify-center shadow-md">
+                            <i class="fab fa-whatsapp ml-2"></i> 
+                            واتساب
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+
+    <script>
+        // التحكم في القائمة المتنقلة
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.contains('mobile-menu-open');
+            
+            if (isOpen) {
+                mobileMenu.classList.remove('mobile-menu-open');
+                mobileMenu.classList.add('mobile-menu-closed');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            } else {
+                mobileMenu.classList.remove('mobile-menu-closed');
+                mobileMenu.classList.add('mobile-menu-open');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
+            }
+        });
+        
+        // إغلاق القائمة عند النقر على رابط
+        const mobileLinks = document.querySelectorAll('#mobile-menu a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('mobile-menu-open');
+                mobileMenu.classList.add('mobile-menu-closed');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // تأثير sticky عند التمرير
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('sticky-nav');
+            } else {
+                navbar.classList.remove('sticky-nav');
+            }
+        });
+        
+        // إضافة تأثير active للرابط الحالي
+        const currentPage = window.location.pathname.split('/').pop();
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        navLinks.forEach(link => {
+            const linkPage = link.getAttribute('href');
+            if (linkPage === currentPage || (currentPage === '' && linkPage === 'index.html')) {
+                link.classList.add('active');
+            }
+        });
+        
+        // إضافة تأثيرات للروابط عند hover
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px)';
+            });
+            
+            link.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
