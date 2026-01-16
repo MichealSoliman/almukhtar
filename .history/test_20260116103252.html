@@ -24,10 +24,6 @@
             font-family: 'Cairo', sans-serif; 
             scroll-behavior: smooth; 
         }
-        html, body {
-        overflow-x: hidden;
-        }
-
         
        .hero-gradient {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -83,15 +79,6 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
         }
     </style>
-    <script>
-        document.querySelectorAll('*').forEach(el => {
-  if (el.scrollWidth > el.clientWidth) {
-    el.style.outline = '3px solid red';
-    console.log(el);
-  }
-});
-
-    </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
 

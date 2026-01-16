@@ -24,10 +24,6 @@
             font-family: 'Cairo', sans-serif; 
             scroll-behavior: smooth; 
         }
-        html, body {
-        overflow-x: hidden;
-        }
-
         
        .hero-gradient {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -83,15 +79,6 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
         }
     </style>
-    <script>
-        document.querySelectorAll('*').forEach(el => {
-  if (el.scrollWidth > el.clientWidth) {
-    el.style.outline = '3px solid red';
-    console.log(el);
-  }
-});
-
-    </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
 
@@ -1222,43 +1209,7 @@
 
         <!-- Working Hours & Additional Info -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <!-- Working Hours -->
-            <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-3xl p-8 shadow-2xl" data-aos="fade-right">
-                <h3 class="text-2xl font-bold text-white mb-8">ساعات العمل والاستقبال</h3>
-                <div class="space-y-6">
-                    <div class="flex items-center bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                        <div class="bg-white p-3 rounded-lg ml-4">
-                            <i class="fas fa-calendar-alt text-blue-600 text-2xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-xl font-bold text-white mb-2">الأيام العادية</h4>
-                            <p class="text-blue-100">السبت - الخميس: 8 صباحاً - 10 مساءً</p>
-                            <p class="text-blue-100 text-sm">خدمة الاستقبال الهاتفي متاحة 24/7</p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-center bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                        <div class="bg-white p-3 rounded-lg ml-4">
-                            <i class="fas fa-calendar-day text-blue-600 text-2xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-xl font-bold text-white mb-2">يوم الجمعة</h4>
-                            <p class="text-blue-100">الجمعة: 4 مساءً - 10 مساءً</p>
-                            <p class="text-blue-100 text-sm">خدمة الطوارئ متاحة على مدار الساعة</p>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-white/5 rounded-xl p-6 mt-8">
-                        <h4 class="text-lg font-bold text-white mb-3">خدمات الطوارئ</h4>
-                        <p class="text-blue-100 mb-4">
-                            نوفر <span class="font-bold">خدمة نقل عفش طارئة</span> على مدار الساعة للحالات العاجلة. اتصل بنا في أي وقت.
-                        </p>
-                        <a href="tel:+966500000000" class="inline-flex items-center text-white font-bold hover:text-blue-200">
-                            <i class="fas fa-ambulance ml-2"></i> طلب خدمة طارئة
-                        </a>
-                    </div>
-                </div>
-            </div>
+        
             
             <!-- Why Contact Us -->
             <div class="bg-white rounded-3xl p-8 shadow-2xl" data-aos="fade-left">
