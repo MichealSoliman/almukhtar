@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# إزالة index.html من الروابط
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+DirectoryIndex index.html
