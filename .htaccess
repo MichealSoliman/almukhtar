@@ -1,6 +1,68 @@
 RewriteEngine On
 
-RewriteCond %{THE_REQUEST} /index\.html [NC]
-RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+# ✅ 1️⃣ تحويل إلى https بدون www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.almukhtar-moving\.com$ [NC]
+RewriteRule ^ https://almukhtar-moving.com%{REQUEST_URI} [L,R=301]
 
+# ✅ 2️⃣ حذف index.html
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# ✅ 3️⃣ الصفحة الافتراضية
 DirectoryIndex index.html
+
+# ✅ 4️⃣ منع تصفح المجلدات
+Options -Indexes
+
+# 🚀 5️⃣ كاش قوي جدًا (مهم للسرعة)
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # الصور
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/avif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # CSS و JS
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # الخطوط (مهم جدًا)
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+
+    # HTML (قصير عشان يتحدث)
+    ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# 🚀 6️⃣ Brotli (أسرع من GZIP لو متاح)
+<IfModule mod_brotli.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# fallback GZIP
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml
+</IfModule>
+
+# 🚀 7️⃣ تحسين الهيدر (مهم للـ PageSpeed)
+<IfModule mod_headers.c>
+
+    # كاش كنترول
+    <FilesMatch "\.(js|css|png|jpg|jpeg|webp|avif|svg|ico|woff2)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # تحسين الاتصال
+    Header set Connection keep-alive
+
+</IfModule>
+
+# السماح للفاف أيقون
+<Files "favicon.ico">
+    Allow from all
+</Files>

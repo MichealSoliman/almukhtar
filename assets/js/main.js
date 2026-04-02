@@ -84,3 +84,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded",function(){
+let images=document.querySelectorAll("img");
+images.forEach(img=>{
+img.setAttribute("loading","lazy");
+});
+});
