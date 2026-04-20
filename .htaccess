@@ -66,3 +66,8 @@ Options -Indexes
 <Files "favicon.ico">
     Allow from all
 </Files>
+
+RewriteEngine On
+
+RewriteRule ^blog/furniture-dismantling-and-assembly-in-Jeddah/?$ https://almukhtar-moving.com/blog/furniture-dismantling-and-assembly-in-jeddah/ [R=301,L]
+Redirect 301 /blog/office-and-company-relocation-in-Jeddah/ https://almukhtar-moving.com/blog/office-and-company-relocation-in-jeddah/
