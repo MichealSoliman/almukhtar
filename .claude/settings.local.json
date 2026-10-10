@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/u662116783/audits/almukhtar-moving/tools/**)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

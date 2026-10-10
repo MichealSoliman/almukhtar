@@ -1,0 +1,196 @@
+Redirect 301 /cities/furniture-moving-company-in-jeddah-and-riyadh/ https://almukhtar-moving.com/cities/jeddah-to-riyadh/
+RewriteEngine On
+
+# ✅ 1️⃣ تحويل إلى https بدون www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.almukhtar-moving\.com$ [NC]
+RewriteRule ^ https://almukhtar-moving.com%{REQUEST_URI} [L,R=301]
+
+# ✅ 2️⃣ حذف index.html
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# ✅ 3️⃣ الصفحة الافتراضية
+DirectoryIndex index.html
+
+# ✅ 4️⃣ منع تصفح المجلدات
+Options -Indexes
+
+# 🚀 5️⃣ كاش قوي جدًا (مهم للسرعة)
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # الصور
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/avif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # CSS و JS
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # الخطوط (مهم جدًا)
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+
+    # HTML (قصير عشان يتحدث)
+    ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# 🚀 6️⃣ Brotli (أسرع من GZIP لو متاح)
+<IfModule mod_brotli.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# fallback GZIP
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml
+</IfModule>
+
+# 🚀 7️⃣ تحسين الهيدر (مهم للـ PageSpeed)
+<IfModule mod_headers.c>
+
+    # كاش كنترول - صور وخطوط (لا تتغير بنفس الاسم): كاش طويل ثابت آمن
+    <FilesMatch "\.(png|jpg|jpeg|webp|avif|svg|ico|woff2)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+
+    # CSS/JS قد يتغير محتواه تحت نفس الاسم - كاش أقصر (7 أيام) مع must-revalidate
+    # بدلاً من immutable لمدة سنة كاملة - يمنع إخفاء تحديثات مستقبلية لمدة طويلة
+    <FilesMatch "\.(js|css)$">
+        Header set Cache-Control "public, max-age=604800, must-revalidate"
+    </FilesMatch>
+
+    # تحسين الاتصال
+    Header set Connection keep-alive
+
+    # security headers (Batch 11, low-risk only)
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), camera=(), microphone=(), payment=(), usb=()"
+
+</IfModule>
+
+# السماح للفاف أيقون
+<Files "favicon.ico">
+    Allow from all
+</Files>
+
+# =============================================
+# 🔀 Redirects 301 - معالجة Keyword Cannibalization
+# =============================================
+
+# المجموعة 1: نقل عفش جدة - توحيد تحت furniture-moving-in-jeddah
+Redirect 301 /furniture-transportation-jeddah/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /furniture-transportation-jeddah https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /services/furniture-moving-jeddah/ /furniture-moving-within-jeddah/
+Redirect 301 /services/furniture-moving-jeddah /furniture-moving-within-jeddah/
+Redirect 301 /services/moving-services-jeddah/ /services/
+Redirect 301 /services/moving-services-jeddah /services/
+Redirect 301 /blog/furniture-moving-in-Jeddah/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /blog/furniture-moving-in-Jeddah https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /blog/furniture-moving-in-jeddah/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /blog/furniture-moving-in-jeddah https://almukhtar-moving.com/furniture-moving-in-jeddah/
+
+# المجموعة 2: توحيد شركة نقل عفش جدة تحت furniture-moving-in-jeddah
+Redirect 301 /jeddah-furniture-moving-company/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /jeddah-furniture-moving-company https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /naql-athath-jida/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /naql-athath-jida https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /شركة-نقل-اثاث-جدة/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /شركة-نقل-اثاث-جدة https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%82%D9%84-%D8%A7%D8%AB%D8%A7%D8%AB-%D8%AC%D8%AF%D8%A9/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%82%D9%84-%D8%A7%D8%AB%D8%A7%D8%AB-%D8%AC%D8%AF%D8%A9 https://almukhtar-moving.com/furniture-moving-in-jeddah/
+
+# المجموعة 3: فك وتركيب العفش - توحيد تحت furniture-dismantling-and-assembly-in-jeddah
+Redirect 301 /services/furniture-dismantling-and-assembly/ https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/
+Redirect 301 /services/furniture-dismantling-and-assembly https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/
+Redirect 301 /blog/furniture-dismantling-and-assembly-in-jeddah/ https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/
+Redirect 301 /blog/furniture-dismantling-and-assembly-in-jeddah https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/
+
+# المجموعة 4: تخزين العفش - توحيد تحت furniture-storage-warehouses-in-jeddah
+Redirect 301 /blog/furniture-storage-in-jeddah/ https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/
+Redirect 301 /blog/furniture-storage-in-jeddah https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/
+
+# المجموعة 5: أفضل شركة نقل عفش - توحيد تحت best-moving-company-jeddah
+Redirect 301 /blog/best-furniture-moving-companies-in-jeddah/ https://almukhtar-moving.com/blog/best-moving-company-jeddah/
+Redirect 301 /blog/best-furniture-moving-companies-in-jeddah https://almukhtar-moving.com/blog/best-moving-company-jeddah/
+
+# المجموعة 6: أرخص شركة نقل عفش - توحيد تحت cheapest-furniture-moving-company
+Redirect 301 /blog/cheap-furniture-moving-jeddah/ https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/
+Redirect 301 /blog/cheap-furniture-moving-jeddah https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/
+
+# المجموعة 7: أسعار نقل العفش - توحيد تحت furniture-moving-prices-in-Jeddah
+Redirect 301 /blog/how-much-does-it-cost-to-move-furniture-in-jeddah/ https://almukhtar-moving.com/blog/furniture-moving-prices-in-Jeddah/
+Redirect 301 /blog/how-much-does-it-cost-to-move-furniture-in-jeddah https://almukhtar-moving.com/blog/furniture-moving-prices-in-Jeddah/
+
+# المجموعة 8: نقل مكاتب وشركات - توحيد تحت office-and-company-relocation-in-jeddah
+Redirect 301 /services/furniture-moving-for-offices-and-companies/ https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/
+Redirect 301 /services/furniture-moving-for-offices-and-companies https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/
+Redirect 301 /blog/office-and-company-relocation-in-jeddah/ https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/
+Redirect 301 /blog/office-and-company-relocation-in-jeddah https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/
+
+# المجموعة 9: نقل عفش مع الضمان - توحيد تحت guaranteed-furniture-moving-company-jeddah
+Redirect 301 /furniture-moving-with-a-guarantee/ https://almukhtar-moving.com/guaranteed-furniture-moving-company-jeddah/
+Redirect 301 /furniture-moving-with-a-guarantee https://almukhtar-moving.com/guaranteed-furniture-moving-company-jeddah/
+
+# المجموعة 10: نقل عفش داخل جدة - توحيد تحت furniture-moving-in-jeddah
+# Redirect 301 /furniture-moving-within-jeddah/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+# Redirect 301 /furniture-moving-within-jeddah https://almukhtar-moving.com/furniture-moving-in-jeddah/
+
+# إصلاح حالة URL Case-Insensitive
+RewriteRule ^blog/furniture-dismantling-and-assembly-in-Jeddah/?$ https://almukhtar-moving.com/blog/furniture-dismantling-and-assembly-in-jeddah/ [R=301,L,NC]
+Redirect 301 /blog/office-and-company-relocation-in-Jeddah/ https://almukhtar-moving.com/blog/office-and-company-relocation-in-jeddah/
+
+# صفحة فارغة في السيتماب - إعادة توجيه للصفحة الأقوى
+Redirect 301 /furniture-relocation-jeddah/ https://almukhtar-moving.com/furniture-moving-in-jeddah/
+Redirect 301 /furniture-relocation-jeddah https://almukhtar-moving.com/furniture-moving-in-jeddah/
+
+# إصلاح رابط حي الشاطئ المكسور (404 fix)
+Redirect 301 /areas/hayu-alshati/ https://almukhtar-moving.com/areas/jeddah-to-alshaati/
+Redirect 301 /areas/hayu-alshati https://almukhtar-moving.com/areas/jeddah-to-alshaati/
+Redirect 301 /areas/jeddah-to-taif/ /cities/jeddah-to-taif/
+Redirect 301 /areas/jeddah-to-taif /cities/jeddah-to-taif/
+# =============================================
+# 🛑 محذوف نهائيًا - 410 Gone (إخبار جوجل بالحذف)
+# =============================================
+Redirect gone /blog/furniture-moving-trucks-in-jeddah/
+Redirect gone /blog/furniture-moving-trucks-in-jeddah
+Redirect gone /blog/furniture-moving-trucks-in-jeddah
+Redirect gone /blog/best-furniture-lifting-crane-in-jeddah/
+Redirect gone /blog/best-furniture-lifting-crane-in-jeddah
+Redirect gone /blog/best-furniture-lifting-crane-in-jeddah
+Redirect gone /blog/furniture-dismantling-and-assembly-in-jeddah/
+Redirect gone /blog/furniture-dismantling-and-assembly-in-jeddah
+Redirect gone /blog/furniture-dismantling-and-assembly-in-jeddah
+Redirect gone /furniture-packing-and-protection/
+Redirect gone /furniture-packing-and-protection
+Redirect gone /furniture-packing-and-protection
+Redirect gone /blog/choosing-a-furniture-packing-and-moving-company/
+Redirect gone /blog/choosing-a-furniture-packing-and-moving-company
+Redirect gone /blog/choosing-a-furniture-packing-and-moving-company
+Redirect gone /blog/the-best-way-to-transport-electrical-appliances/
+Redirect gone /blog/the-best-way-to-transport-electrical-appliances
+Redirect gone /blog/the-best-way-to-transport-electrical-appliances
+Redirect gone /furniture-moving-in-jeddah/
+Redirect gone /furniture-moving-in-jeddah
+Redirect gone /furniture-moving-in-jeddah
+Redirect gone /furniture-moving-with-a-guarantee/
+Redirect gone /furniture-moving-with-a-guarantee
+Redirect gone /furniture-moving-with-a-guarantee
+Redirect gone /blog/home-furniture-moving-jeddah/
+Redirect gone /blog/home-furniture-moving-jeddah
+Redirect gone /blog/home-furniture-moving-jeddah
+Redirect gone /moving-furniture-from-houses-and-villas-in-jeddah/
+Redirect gone /moving-furniture-from-houses-and-villas-in-jeddah
+Redirect gone /moving-furniture-from-houses-and-villas-in-jeddah
+Redirect gone /%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%82%D9%84-%D8%A7%D8%AB%D8%A7%D8%AB-%D8%AC%D8%AF%D8%A9/
+Redirect gone /شركة-نقل-اثاث-جدة/
+Redirect gone /شركة-نقل-اثاث-جدة
+Redirect gone /%D8%B4%D8%B1%D9%83%D8%A9-%D9%86%D9%82%D9%84-%D8%A7%D8%AB%D8%A7%D8%AB-%D8%AC%D8%AF%D8%A9
+Redirect gone /blog/office-and-company-relocation-in-jeddah/
+Redirect gone /blog/office-and-company-relocation-in-jeddah
+Redirect gone /blog/office-and-company-relocation-in-jeddah
