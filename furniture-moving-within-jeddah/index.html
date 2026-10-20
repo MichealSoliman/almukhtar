@@ -88,24 +88,53 @@
 }
 </script>
 
+<!-- Breadcrumb Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "الرئيسية",
+      "item": "https://almukhtar-moving.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "خدماتنا",
+      "item": "https://almukhtar-moving.com/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "نقل عفش داخل جدة",
+      "item": "https://almukhtar-moving.com/furniture-moving-within-jeddah/"
+    }
+  ]
+}
+</script>
+
 <style>
 @font-face {
   font-family: 'Cairo';
   font-style: normal;
   font-weight: 200 1000;
   font-display: swap;
-  src: url(../../assets/fonts/cairo-arabic.woff2) format('woff2');
+  src: url(../assets/fonts/cairo-arabic.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Cairo';
   font-style: normal;
   font-weight: 200 1000;
   font-display: swap;
-  src: url(../../assets/fonts/cairo-latin.woff2) format('woff2');
+  src: url(../assets/fonts/cairo-latin.woff2) format('woff2');
 }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preload" href="../style.css" as="style">
+<link rel="stylesheet" href="../style.css">
 
 <style>
   :root { --primary-color: #1e3b94; --secondary-color: #fa913c; }

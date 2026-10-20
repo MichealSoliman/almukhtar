@@ -52,11 +52,12 @@
         "@graph": [
             {
                 "@type": "LocalBusiness",
+                "@id": "https://almukhtar-moving.com/#localbusiness",
                 "name": "شركة المختار لنقل العفش بجدة",
                 "url": "https://almukhtar-moving.com/",
                 "logo": "https://almukhtar-moving.com/assets/img/logo.webp",
                 "image": "https://almukhtar-moving.com/assets/img/logo.webp",
-                "description": "شركة نقل عفش بجدة تقدم خدمات نقل الأثاث داخل جدة وبين جميع مدن المملكة العربية السعودية.",
+                "description": "شركة نقل عفش بجدة تقدم باقة متكاملة من خدمات نقل الأثاث، الفك والتركيب، التغليف، التخزين، والونش داخل وخارج جدة.",
                 "address": {
                     "@type": "PostalAddress",
                     "addressLocality": "جدة",
@@ -71,60 +72,133 @@
                 ]
             },
             {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "الرئيسية",
+                        "item": "https://almukhtar-moving.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "خدماتنا",
+                        "item": "https://almukhtar-moving.com/services/"
+                    }
+                ]
+            },
+            {
                 "@type": "Service",
-                "serviceType": "نقل عفش جدة",
-                "provider": {
-                    "@type": "LocalBusiness",
-                    "name": "شركة المختار لنقل العفش بجدة"
-                },
-                "areaServed": {
-                    "@type": "City",
-                    "name": "جدة"
-                },
-                "url": "https://almukhtar-moving.com/furniture-moving-in-jeddah/",
-                "description": "نقدم خدمة نقل عفش جدة باحترافية عالية تشمل فك وتركيب الأثاث والتغليف الكامل والنقل الآمن داخل جميع أحياء جدة."
+                "serviceType": "نقل عفش داخل جدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/furniture-moving-within-jeddah/",
+                "description": "خدمة نقل عفش داخل جدة تشمل الفك والتركيب والتغليف والنقل الآمن بين كافة أحياء جدة."
             },
             {
                 "@type": "Service",
                 "serviceType": "فك وتركيب العفش",
-                "provider": {
-                    "@type": "LocalBusiness",
-                    "name": "شركة المختار لنقل العفش بجدة"
-                },
-                "areaServed": {
-                    "@type": "City",
-                    "name": "جدة"
-                },
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
                 "url": "https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/",
-                "description": "نقدم خدمة فك وتركيب العفش باحترافية عالية تشمل التعامل مع جميع أنواع الأثاث المنزلي والمكتبي."
+                "description": "خدمة فك وتركيب العفش والأثاث المنزلي والمكتبي بأيدي نجارين وفنيين محترفين."
             },
             {
                 "@type": "Service",
                 "serviceType": "فك وتركيب غرف النوم",
-                "provider": {
-                    "@type": "LocalBusiness",
-                    "name": "شركة المختار لنقل العفش بجدة"
-                },
-                "areaServed": {
-                    "@type": "City",
-                    "name": "جدة"
-                },
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
                 "url": "https://almukhtar-moving.com/services/bedroom-disassembly-installation/",
-                "description": "خدمة فك وتركيب غرف النوم في جدة باحترافية عالية تشمل فك جميع أنواع غرف النوم الحديثة والكلاسيكية مع إعادة تركيبها بدقة تامة."
+                "description": "فك وتركيب غرف النوم المودرن والكلاسيك وايكيا والتركي بدقة وحرفية وضبط المفصلات."
             },
             {
                 "@type": "Service",
                 "serviceType": "نقل عفش المكاتب والشركات",
-                "provider": {
-                    "@type": "LocalBusiness",
-                    "name": "شركة المختار لنقل العفش بجدة"
-                },
-                "areaServed": {
-                    "@type": "City",
-                    "name": "جدة"
-                },
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
                 "url": "https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/",
-                "description": "خدمة نقل عفش المكاتب والشركات في جدة باحترافية عالية تشمل فك وتركيب الأثاث المكتبي، نقل الأجهزة الإلكترونية، وتنظيم الملفات."
+                "description": "حلول نقل أثاث المكاتب والشركات والمؤسسات بجدة مع تنظيم الملفات وتغليف الأجهزة الحساسة."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "تخزين الأثاث بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/",
+                "description": "مستودعات تخزين أثاث مؤمنة ومكيفة ونظيفة لحفظ العفش لفترات قصيرة أو طويلة بأمان تام."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "دينا نقل عفش جدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/furniture-moving-truck-jeddah/",
+                "description": "أسطول سيارات دينا نقل عفش مغلقة ومجهزة بمقاسات مختلفة لنقل آمن يحمي العفش من الغبار والأمطار."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "عمالة نقل عفش بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/furniture-moving-labor-jeddah/",
+                "description": "عمالة فنية مدربة على التحميل والتنزيل والتعامل مع الأثاث الثقيل والتحف بحرفية وأمان."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "ونش رفع أثاث بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/furniture-lifting-crane-jeddah/",
+                "description": "ونش رفع عفش هيدروليكي وكهربائي للوصول للأدوار العليا وحماية الأثاث من السلالم والمصاعد الضيقة."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "نقل أثاث الفلل بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/villa-moving-in-jeddah/",
+                "description": "خدمة مخصصة لنقل الفلل والقصور بجدة بأطقم عمل متعددة وتغليف فائق الدقة للقطع الفاخرة."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "نقل المطابخ بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/moving-kitchens-in-jeddah/",
+                "description": "فك وتركيب وتعديل المطابخ الخشبية والألمنيوم مع قص الرخام الطبيعي والصناعي بدقة."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "نقل المجالس العربية بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/moving-the-arab-councils-jeddah/",
+                "description": "نقل وتغليف المجالس العربية والكنب الفاخر بطبقات حماية عازلة للغبار والأتربة."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "نقل وفك المكيفات بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/air-conditioner-relocation-in-jeddah/",
+                "description": "فنيون تكييف متخصصون لفك ونقل وتركيب المكيفات السبليت والشباك وشحن الفريون."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "نقل عفش منازل بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/household-furniture-moving-in-jeddah/",
+                "description": "نقل عفش وأثاث الشقق والمنازل باحترافية وسرعة مع المحافظة على كافة الأجهزة والمقتنيات."
+            },
+            {
+                "@type": "Service",
+                "serviceType": "نقل عفش مع الضمان بجدة",
+                "provider": { "@id": "https://almukhtar-moving.com/#localbusiness" },
+                "areaServed": { "@type": "City", "name": "جدة" },
+                "url": "https://almukhtar-moving.com/guaranteed-furniture-moving-company-jeddah/",
+                "description": "نقل عفش بضمان كتابي رسمي يعوض العميل فوراً في حال حدوث أي ضرر لا قدر الله."
             }
         ]
     }
