@@ -1,14 +1,13 @@
-<header id="navbar" class="fixed top-0 w-full z-50 transition-all duration-500 py-3 lg:py-4 bg-white/95 backdrop-blur-sm shadow-md">
+
+<header id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 py-3 lg:py-4 bg-white/95 backdrop-blur-sm shadow-md">
     <div class="container mx-auto px-4 xl:px-6">
         <div class="flex justify-between items-center">
+            
             <!-- Logo واسم الشركة -->
             <div class="flex items-center space-x-reverse space-x-3 rtl:space-x-reverse">
-                <!-- Logo -->
                 <div class="flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 rounded-xl shadow-lg">
                     <img src="/assets/img/logo.webp" alt="شركة المختار لنقل العفش بجدة" width="56" height="56" data-no-lazy class="rounded-xl">
                 </div>
-
-                <!-- اسم الشركة -->
                 <div class="flex flex-col">
                     <a href="/" class="flex flex-col">
                         <span class="text-lg lg:text-xl font-extrabold text-gray-800 leading-tight">
@@ -22,35 +21,173 @@
             </div>
 
             <!-- Desktop Navigation -->
-            <nav class="hidden lg:flex items-center space-x-reverse space-x-6 xl:space-x-8">
-                <a href="/" class="nav-link ml-2 text-gray-700 hover:text-blue-700 active text-sm font-medium">الرئيسية</a>
-                <a href="/about/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">من نحن</a>
-                <a href="/services/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">خدماتنا</a>
-                <a href="/faq/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">الأسئلة الشائعة</a>
-                <a href="/blog/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">المدونة</a>
-                <a href="/cities/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">المدن</a>
-                <a href="/areas/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">الأحياء</a>
-                <a href="/contact/" class="nav-link text-gray-700 hover:text-blue-700 text-sm font-medium">تواصل معنا</a>
+            <nav class="hidden lg:flex items-center nav-desktop-list">
+                <a href="/" class="nav-link-item">الرئيسية</a>
+                <a href="/about/" class="nav-link-item">من نحن</a>
+
+                <!-- قائمة خدماتنا المنسدلة (Desktop Mega Dropdown) -->
+                <div class="services-dropdown-container">
+                    <a href="/services/" class="nav-link-item services-drop-trigger">
+                        <span>خدماتنا</span>
+                        <i class="fas fa-chevron-down drop-arrow"></i>
+                    </a>
+
+                    <!-- Dropdown Box -->
+                    <div class="services-dropdown-menu">
+                        <div class="dropdown-header-bar">
+                            <div class="dropdown-header-title">
+                                <span class="dropdown-header-dot"></span>
+                                <span>خدمات نقل العفش بجدة (15 خدمة متكاملة)</span>
+                            </div>
+                            <a href="/services/" class="dropdown-all-link">
+                                استعراض جميع الخدمات <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+
+                        <!-- 2-Column Grid -->
+                        <div class="services-menu-grid">
+                            
+        <a href="/furniture-moving-within-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-truck-moving"></i>
+            </div>
+            <span class="item-title">نقل عفش داخل جدة</span>
+        </a>
+    
+        <a href="/apartment-furniture-moving-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-door-open"></i>
+            </div>
+            <span class="item-title">نقل عفش شقق بجدة</span>
+        </a>
+    
+        <a href="/household-furniture-moving-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-couch"></i>
+            </div>
+            <span class="item-title">نقل عفش منازل بجدة</span>
+        </a>
+    
+        <a href="/villa-moving-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-home"></i>
+            </div>
+            <span class="item-title">نقل أثاث الفلل بجدة</span>
+        </a>
+    
+        <a href="/office-and-company-relocation-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-building"></i>
+            </div>
+            <span class="item-title">نقل عفش المكاتب والشركات</span>
+        </a>
+    
+        <a href="/furniture-dismantling-and-assembly-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-tools"></i>
+            </div>
+            <span class="item-title">فك وتركيب العفش والأثاث</span>
+        </a>
+    
+        <a href="/services/bedroom-disassembly-installation/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-bed"></i>
+            </div>
+            <span class="item-title">فك وتركيب غرف النوم</span>
+        </a>
+    
+        <a href="/moving-kitchens-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-sink"></i>
+            </div>
+            <span class="item-title">نقل وفك وتركيب المطابخ</span>
+        </a>
+    
+        <a href="/moving-the-arab-councils-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-chair"></i>
+            </div>
+            <span class="item-title">نقل المجالس العربية والكنب</span>
+        </a>
+    
+        <a href="/air-conditioner-relocation-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-snowflake"></i>
+            </div>
+            <span class="item-title">فك ونقل وتركيب المكيفات</span>
+        </a>
+    
+        <a href="/furniture-lifting-crane-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-truck-loading"></i>
+            </div>
+            <span class="item-title">ونش رفع أثاث بجدة</span>
+        </a>
+    
+        <a href="/furniture-moving-truck-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-truck"></i>
+            </div>
+            <span class="item-title">دينا نقل عفش جدة</span>
+        </a>
+    
+        <a href="/furniture-moving-labor-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-users-cog"></i>
+            </div>
+            <span class="item-title">عمالة نقل عفش بجدة</span>
+        </a>
+    
+        <a href="/furniture-storage-warehouses-in-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-warehouse"></i>
+            </div>
+            <span class="item-title">مستودعات تخزين الأثاث</span>
+        </a>
+    
+        <a href="/guaranteed-furniture-moving-company-jeddah/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <span class="item-title">نقل عفش مع الضمان</span>
+        </a>
+    
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="dropdown-footer-bar">
+                            <span class="footer-guarantee">
+                                <i class="fas fa-shield-alt text-green-600 ml-1"></i> سيارات مجهزة وضمان سلامة العفش
+                            </span>
+                            <a href="tel:0561110020" class="footer-phone">
+                                <i class="fas fa-phone-alt ml-1"></i> 0561110020
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="/faq/" class="nav-link-item">الأسئلة الشائعة</a>
+                <a href="/blog/" class="nav-link-item">المدونة</a>
+                <a href="/cities/" class="nav-link-item">المدن</a>
+                <a href="/areas/" class="nav-link-item">الأحياء</a>
+                <a href="/contact/" class="nav-link-item">تواصل معنا</a>
             </nav>
 
             <!-- Buttons -->
             <div class="flex items-center space-x-reverse space-x-3 rtl:space-x-reverse">
-                <!-- WhatsApp Button -->
                 <a href="https://wa.me/966561110020" aria-label="تواصل عبر واتساب"
                     class="bg-gradient-to-l from-green-500 to-green-600 text-white px-3 sm:px-4 py-2 rounded-full font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 flex items-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-sm">
                     <i class="fab fa-whatsapp ml-1 sm:ml-2 text-sm sm:text-base" aria-hidden="true"></i>
                     <span class="hidden sm:inline text-xs sm:text-sm">واتساب</span>
                 </a>
 
-                <!-- Call Button for Medium+ Screens -->
                 <a href="tel:0561110020"
                     class="hidden md:flex bg-gradient-to-l from-blue-600 to-blue-700 text-white px-3 sm:px-4 py-2 rounded-full font-bold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 flex items-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 text-sm">
                     <i class="fas fa-phone ml-1 sm:ml-2 text-sm sm:text-base"></i>
                     <span class="text-xs sm:text-sm">اتصل الآن</span>
                 </a>
 
-                <!-- Mobile Menu Button -->
-                <button class="lg:hidden text-gray-700 text-2xl focus:outline-none hover:text-blue-600 transition-colors duration-300"
+                <button class="lg:hidden text-gray-700 text-2xl focus:outline-none hover:text-blue-600 transition-colors duration-300 p-1"
                     id="mobile-menu-btn" aria-label="فتح القائمة">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -59,35 +196,172 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="mobile-menu-closed lg:hidden bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-xl">
-        <div class="container mx-auto px-4 py-5">
-            <div class="flex flex-col space-y-4">
-                <a href="/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-home ml-3 text-blue-600"></i> الرئيسية
+    <div id="mobile-menu" class="mobile-menu-closed lg:hidden bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-xl overflow-hidden transition-all duration-300">
+        <div class="container mx-auto px-4 py-4 max-h-[85vh] overflow-y-auto">
+            <div class="flex flex-col space-y-1">
+                <a href="/" class="mobile-main-link">
+                    <i class="fas fa-home ml-3 text-blue-600 w-5"></i> الرئيسية
                 </a>
-                <a href="/about/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-info-circle ml-3 text-blue-600"></i> من نحن
-                </a>
-                <a href="/services/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-concierge-bell ml-3 text-blue-600"></i> خدماتنا
-                </a>
-                <a href="/faq/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-question-circle ml-3 text-blue-600"></i> الأسئلة الشائعة
-                </a>
-                <a href="/blog/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-newspaper ml-3 text-blue-600"></i> المدونة
-                </a>
-                <a href="/cities/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-city ml-3 text-blue-600"></i> المدن
-                </a>
-                <a href="/areas/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium border-b border-gray-100 flex items-center">
-                    <i class="fas fa-map-marker-alt ml-3 text-blue-600"></i> الأحياء
-                </a>
-                <a href="/contact/" class="nav-link py-3 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-gray-700 hover:text-blue-700 font-medium flex items-center">
-                    <i class="fas fa-phone-alt ml-3 text-blue-600"></i> تواصل معنا
+                <a href="/about/" class="mobile-main-link">
+                    <i class="fas fa-info-circle ml-3 text-blue-600 w-5"></i> من نحن
                 </a>
 
-                <!-- Mobile Contact Buttons -->
+                <!-- خدماتنا في الجوال مع قائمة منسدلة قابلة للطي -->
+                <div class="mobile-services-wrapper">
+                    <div class="mobile-services-header">
+                        <a href="/services/" class="mobile-services-text">
+                            <i class="fas fa-concierge-bell ml-3 text-blue-600 w-5"></i> خدماتنا
+                        </a>
+                        <button type="button" id="mobile-services-toggle" class="mobile-services-arrow-btn" aria-label="عرض الخدمات">
+                            <i id="mobile-services-arrow" class="fas fa-chevron-down text-xs transition-transform duration-300"></i>
+                        </button>
+                    </div>
+                    <div id="mobile-services-submenu" class="hidden mobile-submenu-container">
+                        <a href="/services/" class="mobile-all-services-link">
+                            <span><i class="fas fa-th-large ml-2 text-blue-600"></i> عرض صفحة جميع الخدمات</span>
+                            <i class="fas fa-arrow-left text-[10px]"></i>
+                        </a>
+                        
+        <a href="/furniture-moving-within-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-truck-moving text-blue-600"></i>
+                نقل عفش داخل جدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/apartment-furniture-moving-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-door-open text-blue-600"></i>
+                نقل عفش شقق بجدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/household-furniture-moving-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-couch text-blue-600"></i>
+                نقل عفش منازل بجدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/villa-moving-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-home text-blue-600"></i>
+                نقل أثاث الفلل بجدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/office-and-company-relocation-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-building text-blue-600"></i>
+                نقل عفش المكاتب والشركات
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/furniture-dismantling-and-assembly-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-tools text-blue-600"></i>
+                فك وتركيب العفش والأثاث
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/services/bedroom-disassembly-installation/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-bed text-blue-600"></i>
+                فك وتركيب غرف النوم
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/moving-kitchens-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-sink text-blue-600"></i>
+                نقل وفك وتركيب المطابخ
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/moving-the-arab-councils-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-chair text-blue-600"></i>
+                نقل المجالس العربية والكنب
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/air-conditioner-relocation-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-snowflake text-blue-600"></i>
+                فك ونقل وتركيب المكيفات
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/furniture-lifting-crane-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-truck-loading text-blue-600"></i>
+                ونش رفع أثاث بجدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/furniture-moving-truck-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-truck text-blue-600"></i>
+                دينا نقل عفش جدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/furniture-moving-labor-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-users-cog text-blue-600"></i>
+                عمالة نقل عفش بجدة
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/furniture-storage-warehouses-in-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-warehouse text-blue-600"></i>
+                مستودعات تخزين الأثاث
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+        <a href="/guaranteed-furniture-moving-company-jeddah/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-shield-alt text-blue-600"></i>
+                نقل عفش مع الضمان
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+    
+                    </div>
+                </div>
+
+                <a href="/faq/" class="mobile-main-link">
+                    <i class="fas fa-question-circle ml-3 text-blue-600 w-5"></i> الأسئلة الشائعة
+                </a>
+                <a href="/blog/" class="mobile-main-link">
+                    <i class="fas fa-newspaper ml-3 text-blue-600 w-5"></i> المدونة
+                </a>
+                <a href="/cities/" class="mobile-main-link">
+                    <i class="fas fa-city ml-3 text-blue-600 w-5"></i> المدن
+                </a>
+                <a href="/areas/" class="mobile-main-link">
+                    <i class="fas fa-map-marker-alt ml-3 text-blue-600 w-5"></i> الأحياء
+                </a>
+                <a href="/contact/" class="mobile-main-link">
+                    <i class="fas fa-phone-alt ml-3 text-blue-600 w-5"></i> تواصل معنا
+                </a>
+
+                <!-- أزرار الاتصال في قائمة الجوال -->
                 <div class="flex flex-col sm:flex-row gap-3 mt-4 pt-4 border-t border-gray-100">
                     <a href="tel:0561110020" class="bg-gradient-to-l from-blue-600 to-blue-700 text-white px-4 py-3 rounded-lg font-bold hover:from-blue-700 hover:to-blue-800 transition-all duration-300 flex items-center justify-center shadow-md text-sm">
                         <i class="fas fa-phone ml-2"></i> اتصل الآن
@@ -100,3 +374,4 @@
         </div>
     </div>
 </header>
+    
