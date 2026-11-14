@@ -1,0 +1,14 @@
+# مقترحات إعادة التوجيه 301 المقترحة للقرارات المستقبلية (Redirects Proposed)
+# صيغة: من → إلى
+# ملاحظة: هذه اقتراحات للدراسة ولا يتم تطبيقها برمجياً اليوم حفاظاً على استقرار الروابط الحالية.
+
+# 1. توحيد حالة الأحرف الكبيرة إلى حروف صغيرة (Lowercase normalization)
+/blog/furniture-moving-prices-in-Jeddah/ → /blog/furniture-moving-prices-in-jeddah/
+
+# 2. توحيد بادئات صفحات الأحياء الشاذة لتطابق نمط hayu-*
+/areas/jeddah-to-al-hamdaniya/ → /areas/hayu-alhamdaniya/
+/areas/jeddah-to-alshaati/ → /areas/hayu-alshaati/
+
+# 3. دمج مقالات مكررة النية (في حال رغبة الإدارة في تقليص عدد المقالات لاحقاً)
+# /blog/cheapest-furniture-moving-company-in-jeddah/ → /blog/furniture-moving-prices-in-Jeddah/
+

@@ -1,0 +1,421 @@
+1. Meta Keywords Files (8):
+   - areas/hayu-alrawda/index.html
+   - areas/hayu-alrubwa/index.html
+   - areas/hayu-alzahra/index.html
+   - blog/best-moving-company-jeddah/index.html
+   - blog/cheapest-furniture-moving-company-in-jeddah/index.html
+   - blog/najjar-fak-tarkeeb-afsh-jeddah/index.html
+   - blog/protect-the-furniture-during-transport/index.html
+   - furniture-moving-truck-jeddah/index.html
+
+2. Obsolete Metas Files (60):
+   - about/index.html
+   - air-conditioner-relocation-in-jeddah/index.html
+   - apartment-furniture-moving-jeddah/index.html
+   - areas/index.html
+   - areas/hayu-albasatin/index.html
+   - areas/hayu-aleazizia/index.html
+   - areas/hayu-alfaysalia/index.html
+   - areas/hayu-alhamraa/index.html
+   - areas/hayu-almanar/index.html
+   - areas/hayu-almarjan/index.html
+   - areas/hayu-alnaeem/index.html
+   - areas/hayu-alnahda/index.html
+   - areas/hayu-alnakhil/index.html
+   - areas/hayu-alnasim/index.html
+   - areas/hayu-alrawda/index.html
+   - areas/hayu-alruwais/index.html
+   - areas/hayu-alsaalihia/index.html
+   - areas/hayu-alsafa/index.html
+   - areas/hayu-alsalama/index.html
+   - areas/hayu-alsharafiyah/index.html
+   - areas/hayu-alzahra/index.html
+   - areas/jeddah-to-al-hamdaniya/index.html
+   - areas/jeddah-to-alshaati/index.html
+   - blog/index.html
+   - blog/best-moving-company-jeddah/index.html
+   - blog/cheapest-furniture-moving-company-in-jeddah/index.html
+   - blog/comparison-between-furniture-moving-companies/index.html
+   - blog/furniture-moving-prices-in-Jeddah/index.html
+   - blog/furniture-moving-without-damage/index.html
+   - blog/furniture-packing/index.html
+   - blog/glass-and-mirror-coating/index.html
+   - blog/how-to-choose-a-furniture-moving-company-in-jeddah/index.html
+   - blog/materials-used-in-furniture-packaging/index.html
+   - blog/moving-electrical-appliances-in-jeddah/index.html
+   - blog/moving-furniture-tips-jeddah/index.html
+   - blog/najjar-fak-tarkeeb-afsh-jeddah/index.html
+   - blog/steps-for-moving-furniture/index.html
+   - blog/the-best-time-to-move-furniture/index.html
+   - cities/index.html
+   - cities/jeddah-to-dammam/index.html
+   - cities/jeddah-to-madinah/index.html
+   - cities/jeddah-to-makkah/index.html
+   - cities/jeddah-to-riyadh/index.html
+   - cities/jeddah-to-taif/index.html
+   - contact/index.html
+   - faq/index.html
+   - furniture-dismantling-and-assembly-in-jeddah/index.html
+   - furniture-lifting-crane-jeddah/index.html
+   - furniture-moving-labor-jeddah/index.html
+   - furniture-moving-truck-jeddah/index.html
+   - furniture-moving-within-jeddah/index.html
+   - furniture-storage-warehouses-in-jeddah/index.html
+   - guaranteed-furniture-moving-company-jeddah/index.html
+   - household-furniture-moving-in-jeddah/index.html
+   - moving-kitchens-in-jeddah/index.html
+   - moving-the-arab-councils-jeddah/index.html
+   - office-and-company-relocation-in-jeddah/index.html
+   - services/index.html
+   - services/bedroom-disassembly-installation/index.html
+   - villa-moving-in-jeddah/index.html
+
+3. Typo Files (2):
+   - blog/furniture-moving-prices-in-Jeddah/index.html
+   - blog/najjar-fak-tarkeeb-afsh-jeddah/index.html
+
+4. Reviews Matches (10):
+   - index.html: محمد العتيبي
+   - index.html: سارة الزهراني
+   - index.html: خالد الغامدي
+   - areas/hayu-aleazizia/index.html: 247
+   - blog/best-moving-company-jeddah/index.html: أحمد الزهراني
+   - blog/best-moving-company-jeddah/index.html: محمد المطيري
+   - blog/best-moving-company-jeddah/index.html: تقييم موثق
+   - blog/cheapest-furniture-moving-company-in-jeddah/index.html: خالد الغامدي
+   - furniture-lifting-crane-jeddah/index.html: أحمد الزهراني
+   - furniture-moving-labor-jeddah/index.html: أحمد الزهراني
+
+5. Experience Claims (17):
+   - air-conditioner-relocation-in-jeddah/index.html: ['أكثر من 15 عام', '10 سنوات']
+   - areas/hayu-albasatin/index.html: ['أكثر من 15 عام']
+   - areas/hayu-alfaysalia/index.html: ['10 سنوات']
+   - areas/hayu-almarjan/index.html: ['أكثر من 15 عام']
+   - areas/hayu-alnakhil/index.html: ['أكثر من 10 سنوات', '10 سنوات']
+   - areas/hayu-alnasim/index.html: ['10 سنوات']
+   - areas/hayu-alrawda/index.html: ['أكثر من 10 سنوات من الخبرة', '3 سنوات', '10 سنوات']
+   - areas/hayu-alruwais/index.html: ['أكثر من 15 عام']
+   - areas/hayu-alsaalihia/index.html: ['أكثر من 15 عام']
+   - areas/hayu-alsharafiyah/index.html: ['أكثر من 15 عام']
+   - areas/hayu-alzahra/index.html: ['أكثر من 10 سنوات من الخبرة', '3 سنوات', '10 سنوات']
+   - blog/comparison-between-furniture-moving-companies/index.html: ['15 عام', 'أكثر من 15 عام']
+   - blog/furniture-moving-without-damage/index.html: ['أكثر من 10 سنوات']
+   - blog/steps-for-moving-furniture/index.html: ['أكثر من 10 سنوات']
+   - guaranteed-furniture-moving-company-jeddah/index.html: ['أكثر من 15 عام', '10 سنوات']
+   - household-furniture-moving-in-jeddah/index.html: ['أكثر من 15 عام', '10 سنوات']
+   - moving-kitchens-in-jeddah/index.html: ['أكثر من 15 عام', '10 سنوات']
+
+6. Crane Claims (19):
+   - index.html: ['ونش الهيدروليكي', 'ونش هيدروليك', 'ونش هيدروليكي', 'ونش رفع العفش الهيدروليكي']
+   - areas/index.html: ['ونش رفع هيدروليكي']
+   - areas/hayu-alhamraa/index.html: ['ونش كهربائي']
+   - areas/hayu-alnaeem/index.html: ['ونش كهربائي']
+   - areas/hayu-alnahda/index.html: ['ونش كهربائي']
+   - areas/hayu-alrawda/index.html: ['ونش الكهربائي', 'كهربائية الضخمة يتم بسهولة عبر الونش']
+   - areas/hayu-alrubwa/index.html: ['ونش هيدروليكيا']
+   - areas/hayu-alsaalihia/index.html: ['ونش رفع كهربائي']
+   - areas/hayu-alsafa/index.html: ['ونش رفع العفش الهيدروليكي', 'ونش رفع أثاث هيدروليكي', 'ونش الهيدروليكي', 'ونش هيدروليك', 'ونش رفع هيدروليكي', 'ونش رفع الأثاث الهيدروليكي']
+   - areas/hayu-alsalama/index.html: ['ونش رفع أثاث هيدروليكي', 'ونش الهيدروليكي', 'ونش الرفع الهيدروليكي', 'ونش هيدروليكي', 'ونش رفع هيدروليكي', 'ونش رفع الأثاث الهيدروليكي', 'ونش رفع هيدروليك']
+   - areas/hayu-alzahra/index.html: ['ونش الكهربائي', 'كهربائية الضخمة يتم بسهولة عبر الونش']
+   - areas/jeddah-to-al-hamdaniya/index.html: ['ونش كهربائي']
+   - areas/jeddah-to-alshaati/index.html: ['هيدروليكي وحراري، ونش', 'ونش رفع العفش الهيدروليكي', 'ونش الرفع الهيدروليكي', 'ونش رفع هيدروليكي', 'ونش رفع الأثاث الهيدروليكي']
+   - cities/index.html: ['ونش هيدروليكي']
+   - cities/jeddah-to-riyadh/index.html: ['ونش رفع الأثاث الهيدروليكي', 'ونش رفع أثاث هيدروليكي', 'ونش رفع العفش الهيدروليكي']
+   - cities/jeddah-to-taif/index.html: ['ونش رفع الأثاث الهيدروليكي', 'ونش رفع أثاث هيدروليكي', 'ونش رفع هيدروليكي']
+   - faq/index.html: ['ونش الهيدروليكي عند وجود الأدوار العليا (من الدور 3', 'ونش رفع العفش الهيدروليكي', 'ونش الرفع الهيدروليكي']
+   - furniture-lifting-crane-jeddah/index.html: ['ونش رفع عفش جدة مع شركة المختار – ونش هيدروليك', 'ونش رفع الأجهزة الكهربائية', 'ونش رفع عفش جدة 0561110020 | ونش هيدروليك', 'ونش رفع العفش والأثاث للأدوار العليا والهيدروليك', 'ونش هيدروليك', 'ونش هيدروليكي', 'ونش كهربائي', 'ونش رفع عفش جدة | ونش هيدروليك']
+   - services/index.html: ['ونش رفع عفش هيدروليكي وكهربائي']
+
+7. Guarantee Claims (14):
+   - index.html: ['تعويض فوري']
+   - about/index.html: ['تأمين شامل']
+   - areas/hayu-alsafa/index.html: ['ضمان شامل 100%', 'تعويض فوري']
+   - areas/jeddah-to-alshaati/index.html: ['ضمان شامل 100%', 'تأمين شامل']
+   - blog/comparison-between-furniture-moving-companies/index.html: ['تأمين شامل']
+   - blog/how-to-choose-a-furniture-moving-company-in-jeddah/index.html: ['تأمين شامل']
+   - cities/index.html: ['ضمان شامل 100%']
+   - cities/jeddah-to-dammam/index.html: ['ضمان شامل 100%']
+   - cities/jeddah-to-riyadh/index.html: ['ضمان شامل 100%', 'تأمين شامل', 'عقد موثق ضد التلف']
+   - cities/jeddah-to-taif/index.html: ['ضمان شامل 100%', 'تأمين شامل']
+   - furniture-storage-warehouses-in-jeddah/index.html: ['تأمين شامل']
+   - moving-the-arab-councils-jeddah/index.html: ['تأمين شامل']
+   - office-and-company-relocation-in-jeddah/index.html: ['تأمين شامل']
+   - villa-moving-in-jeddah/index.html: ['تأمين شامل']
+
+8. Repetitive Phrases (53 files):
+   - index.html:
+       * (39x): }, { "@type":
+       * (20x): { "@type": "Place",
+       * (20x): "@type": "Place", "name":
+       * (20x): "Place", "name": "حي
+       * (17x): } }, {
+   - air-conditioner-relocation-in-jeddah/index.html:
+       * (10x): نقل مكيفات بجدة
+       * (9x): خدمات نقل المكيفات
+   - apartment-furniture-moving-jeddah/index.html:
+       * (18x): نقل عفش الشقق
+       * (16x): نقل عفش شقق
+       * (15x): التي تحتاج إلى
+       * (14x): عفش شقق بجدة
+       * (11x): القطع التي تحتاج
+   - areas/index.html:
+       * (41x): "نقل عفش حي
+       * (20x): {"@type": "Place", "name":
+       * (20x): "Place", "name": "نقل
+       * (20x): "name": "نقل عفش
+       * (20x): title: "نقل عفش
+   - areas/hayu-albasatin/index.html:
+       * (18x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+       * (15x): "acceptedAnswer": { "@type":
+       * (15x): { "@type": "Answer",
+   - areas/hayu-aleazizia/index.html:
+       * (16x): عفش حي العزيزية
+       * (15x): نقل عفش حي
+       * (9x): الأثاث في حي
+       * (12x): نقل عفش حي العزيزية
+   - areas/hayu-alhamraa/index.html:
+       * (14x): عفش حي الحمراء
+       * (12x): شركة نقل عفش
+       * (11x): نقل عفش حي
+       * (11x): نقل عفش حي الحمراء
+   - areas/hayu-almanar/index.html:
+       * (25x): عفش حي المنار
+       * (20x): نقل عفش حي
+       * (17x): حي المنار جدة
+       * (10x): شركة نقل عفش
+       * (10x): نقل العفش في
+   - areas/hayu-almarjan/index.html:
+       * (9x): عفش حي المرجان
+   - areas/hayu-alnaeem/index.html:
+       * (16x): عفش حي النعيم
+       * (11x): نقل عفش حي
+       * (10x): شركة نقل عفش
+       * (11x): نقل عفش حي النعيم
+   - areas/hayu-alnahda/index.html:
+       * (16x): عفش حي النهضة
+       * (11x): نقل عفش حي
+       * (10x): شركة نقل عفش
+       * (11x): نقل عفش حي النهضة
+   - areas/hayu-alnasim/index.html:
+       * (9x): عفش حي النسيم
+   - areas/hayu-alrawda/index.html:
+       * (40x): عفش حي الروضة
+       * (28x): نقل عفش حي
+       * (15x): حي الروضة جدة
+       * (13x): شركة نقل عفش
+       * (27x): نقل عفش حي الروضة
+   - areas/hayu-alrubwa/index.html:
+       * (35x): نقل عفش حي
+       * (14x): عفش حي الربوة
+       * (11x): نقل العفش في
+       * (11x): شركة نقل عفش
+       * (9x): يمكنك الاطلاع على
+   - areas/hayu-alsaalihia/index.html:
+       * (36x): عفش حي الصالحية
+       * (27x): نقل عفش حي
+       * (20x): حي الصالحية جدة
+       * (14x): شركة نقل عفش
+       * (9x): نقل العفش في
+   - areas/hayu-alsafa/index.html:
+       * (18x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+       * (15x): "acceptedAnswer": { "@type":
+       * (15x): { "@type": "Answer",
+   - areas/hayu-alsalama/index.html:
+       * (18x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+       * (15x): "acceptedAnswer": { "@type":
+       * (15x): { "@type": "Answer",
+   - areas/hayu-alsharafiyah/index.html:
+       * (9x): نقل عفش جدة
+   - areas/hayu-alzahra/index.html:
+       * (39x): عفش حي الزهراء
+       * (27x): نقل عفش حي
+       * (15x): شركة نقل عفش
+       * (14x): حي الزهراء جدة
+       * (26x): نقل عفش حي الزهراء
+   - areas/jeddah-to-al-hamdaniya/index.html:
+       * (16x): عفش حي الحمدانية
+       * (11x): نقل عفش حي
+       * (10x): شركة نقل عفش
+       * (11x): نقل عفش حي الحمدانية
+   - areas/jeddah-to-alshaati/index.html:
+       * (18x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+       * (15x): "acceptedAnswer": { "@type":
+       * (15x): { "@type": "Answer",
+   - blog/index.html:
+       * (9x): قراءة المزيد 2026
+   - blog/best-moving-company-jeddah/index.html:
+       * (28x): شركة نقل عفش
+       * (21x): أفضل شركة نقل
+       * (20x): نقل عفش بجدة
+       * (13x): }, { "@type":
+       * (10x): } }, {
+   - blog/cheapest-furniture-moving-company-in-jeddah/index.html:
+       * (26x): شركة نقل عفش
+       * (25x): ارخص شركة نقل
+       * (25x): نقل عفش بجدة
+       * (11x): نقل عفش حي
+       * (10x): }, { "@type":
+   - blog/comparison-between-furniture-moving-companies/index.html:
+       * (14x): شركات نقل الأثاث
+       * (14x): نقل الأثاث في
+       * (12x): الأثاث في الرياض
+       * (13x): شركات نقل الأثاث في
+       * (12x): نقل الأثاث في الرياض
+   - blog/furniture-moving-prices-in-Jeddah/index.html:
+       * (31x): نقل العفش في
+       * (30x): العفش في جدة
+       * (30x): نقل عفش جدة
+       * (23x): شركة نقل عفش
+       * (19x): نقل العفش بجدة
+   - blog/furniture-packing/index.html:
+       * (9x): تغليف العفش بجدة
+       * (9x): }, { "@type":
+   - blog/glass-and-mirror-coating/index.html:
+       * (12x): تغليف الزجاج والمرايا
+   - blog/how-to-choose-a-furniture-moving-company-in-jeddah/index.html:
+       * (13x): شركة نقل عفش
+       * (12x): العفش في جدة
+       * (9x): نقل العفش في
+       * (9x): نقل العفش في جدة
+   - blog/materials-used-in-furniture-packaging/index.html:
+       * (47x): مواد تغليف الأثاث
+       * (17x): شركة نقل عفش
+       * (16x): أفضل مواد تغليف
+       * (12x): نقل عفش جدة
+       * (11x): العفش في جدة
+   - blog/moving-electrical-appliances-in-jeddah/index.html:
+       * (40x): نقل الأجهزة الكهربائية
+       * (23x): الأجهزة الكهربائية بجدة
+       * (10x): تكلفة نقل الأجهزة
+       * (9x): الأجهزة الكهربائية في
+       * (21x): نقل الأجهزة الكهربائية بجدة
+   - blog/najjar-fak-tarkeeb-afsh-jeddah/index.html:
+       * (30x): فك وتركيب عفش
+       * (27x): نجار فك وتركيب
+       * (21x): وتركيب عفش بجدة
+       * (12x): فك وتركيب العفش
+       * (23x): نجار فك وتركيب عفش
+   - blog/the-best-time-to-move-furniture/index.html:
+       * (35x): أفضل وقت لنقل
+       * (32x): وقت لنقل العفش
+       * (20x): لنقل العفش بجدة
+       * (15x): لنقل العفش في
+       * (11x): العفش في جدة
+   - cities/index.html:
+       * (10x): "نقل عفش من
+       * (10x): عفش من جدة
+       * (10x): "نقل عفش من جدة
+       * (10x): عفش من جدة إلى
+       * (10x): "نقل عفش من جدة إلى
+   - cities/jeddah-to-dammam/index.html:
+       * (13x): }, { "@type":
+       * (12x): عفش من جدة
+       * (10x): نقل عفش من
+       * (10x): نقل عفش من جدة
+   - cities/jeddah-to-madinah/index.html:
+       * (17x): جدة إلى المدينة
+       * (12x): عفش من جدة
+       * (11x): }, { "@type":
+       * (10x): نقل عفش من
+       * (10x): نقل عفش من جدة
+   - cities/jeddah-to-makkah/index.html:
+       * (16x): جدة إلى مكة
+       * (12x): عفش من جدة
+       * (10x): نقل عفش من
+       * (10x): }, { "@type":
+       * (10x): نقل عفش من جدة
+   - cities/jeddah-to-riyadh/index.html:
+       * (20x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+       * (15x): "acceptedAnswer": { "@type":
+       * (15x): { "@type": "Answer",
+   - cities/jeddah-to-taif/index.html:
+       * (21x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+       * (15x): "acceptedAnswer": { "@type":
+       * (15x): { "@type": "Answer",
+   - furniture-dismantling-and-assembly-in-jeddah/index.html:
+       * (17x): فك وتركيب العفش
+       * (16x): فك وتركيب الأثاث
+       * (15x): خدمة فك وتركيب
+       * (11x): وتركيب العفش بجدة
+       * (10x): } }, {
+   - furniture-lifting-crane-jeddah/index.html:
+       * (41x): ونش رفع عفش
+       * (31x): رفع عفش جدة
+       * (17x): نقل عفش جدة
+       * (14x): شركة نقل عفش
+       * (12x): }, { "@type":
+   - furniture-moving-labor-jeddah/index.html:
+       * (34x): عمال نقل عفش
+       * (32x): نقل عفش بجدة
+       * (10x): }, { "@type":
+       * (10x): فك وتركيب الأثاث
+       * (10x): نقل الأثاث بجدة
+   - furniture-moving-truck-jeddah/index.html:
+       * (40x): دينا نقل عفش
+       * (33x): نقل عفش جدة
+       * (15x): }, { "@type":
+       * (15x): { "@type": "Question",
+       * (15x): "@type": "Question", "name":
+   - furniture-moving-within-jeddah/index.html:
+       * (15x): نقل عفش داخل
+       * (13x): عفش داخل جدة
+       * (10x): نقل العفش من
+       * (9x): نقل العفش داخل
+       * (9x): نقل عفش حي
+   - furniture-storage-warehouses-in-jeddah/index.html:
+       * (16x): تخزين العفش في
+       * (13x): العفش في جدة
+       * (12x): تخزين العفش في جدة
+   - guaranteed-furniture-moving-company-jeddah/index.html:
+       * (26x): نقل عفش مضمونة
+       * (21x): شركة نقل عفش
+       * (13x): عفش مضمونة بجدة
+       * (9x): }, { "@type":
+       * (20x): شركة نقل عفش مضمونة
+   - household-furniture-moving-in-jeddah/index.html:
+       * (10x): نقل عفش المنازل
+       * (9x): عفش المنازل بجدة
+       * (9x): }, { "@type":
+       * (9x): نقل عفش الشقق
+       * (9x): نقل عفش المنازل بجدة
+   - moving-kitchens-in-jeddah/index.html:
+       * (9x): شركة نقل مطابخ
+       * (9x): نقل مطابخ بجدة
+   - moving-the-arab-councils-jeddah/index.html:
+       * (27x): نقل المجالس العربية
+       * (14x): المجالس العربية بجدة
+       * (12x): نقل مجالس عربية
+       * (10x): مجالس عربية بجدة
+       * (9x): لنقل المجالس العربية
+   - office-and-company-relocation-in-jeddah/index.html:
+       * (23x): نقل المكاتب والشركات
+       * (14x): المكاتب والشركات بجدة
+       * (14x): نقل المكاتب والشركات بجدة
+   - services/index.html:
+       * (17x): }, { "@type":
+       * (15x): { "@type": "Service",
+       * (15x): "@type": "Service", "serviceType":
+       * (15x): "provider": { "@id":
+       * (15x): { "@id": "https://almukhtar-moving.com/#localbusiness"
+   - services/bedroom-disassembly-installation/index.html:
+       * (18x): وتركيب غرف النوم
+       * (17x): فك وتركيب غرف
+       * (16x): فك وتركيب غرف النوم
+   - villa-moving-in-jeddah/index.html:
+       * (21x): نقل فلل بجدة
+       * (20x): نقل الفلل بجدة
+       * (16x): الأثاث في جدة
+       * (14x): شركة نقل فلل
+       * (13x): نقل الأثاث في

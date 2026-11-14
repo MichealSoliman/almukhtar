@@ -1,4 +1,4 @@
-/**
+﻿/**
  * =========================================================================
  * شركة المختار لنقل العفش بجدة - شريط التنقل الموحد (Unified Navbar)
  * =========================================================================
@@ -20,7 +20,6 @@ const siteServices = [
     { title: "نقل وفك وتركيب المطابخ", url: "/moving-kitchens-in-jeddah/", icon: "fas fa-sink" },
     { title: "نقل المجالس العربية والكنب", url: "/moving-the-arab-councils-jeddah/", icon: "fas fa-chair" },
     { title: "فك ونقل وتركيب المكيفات", url: "/air-conditioner-relocation-in-jeddah/", icon: "fas fa-snowflake" },
-    { title: "ونش رفع أثاث بجدة", url: "/furniture-lifting-crane-jeddah/", icon: "fas fa-truck-loading" },
     { title: "دينا نقل عفش جدة", url: "/furniture-moving-truck-jeddah/", icon: "fas fa-truck" },
     { title: "عمالة نقل عفش بجدة", url: "/furniture-moving-labor-jeddah/", icon: "fas fa-users-cog" },
     { title: "مستودعات تخزين الأثاث", url: "/furniture-storage-warehouses-in-jeddah/", icon: "fas fa-warehouse" },

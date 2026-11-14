@@ -1,0 +1,48 @@
+=== LINK CHECK REPORT ===
+
+Total HTML files checked: 66
+1. Broken Links: 0
+
+2. Links containing 'index.html': 0
+
+3. Bad Extension Links (.webp/ or .html/): 0
+
+4. Self-referencing links: 36
+   - File: index.html | Href: / | Text: شركة المختار لنقل العفش بجدة
+   - File: index.html | Href: / | Text: الرئيسية
+   - File: index.html | Href: / | Text: الرئيسية
+   - File: index.html | Href: / | Text: الرئيسية
+   - File: index.html | Href: / | Text: شركة نقل عفش جدة
+   - File: air-conditioner-relocation-in-jeddah/index.html | Href: /air-conditioner-relocation-in-jeddah/ | Text: فك وتركيب المكيفات في جدة
+   - File: air-conditioner-relocation-in-jeddah/index.html | Href: /air-conditioner-relocation-in-jeddah/ | Text: فك وتركيب المكيفات في جدة
+   - File: air-conditioner-relocation-in-jeddah/index.html | Href: /air-conditioner-relocation-in-jeddah/ | Text: خدمة نقل مكيفات المكاتب والشركات
+   - File: air-conditioner-relocation-in-jeddah/index.html | Href: /air-conditioner-relocation-in-jeddah/ | Text: نقل مكيفات المكاتب والشركات
+   - File: areas/hayu-alrawda/index.html | Href: https://almukhtar-moving.com/areas/hayu-alrawda/ | Text: حي الروضة
+   - File: blog/furniture-moving-prices-in-Jeddah/index.html | Href: /blog/furniture-moving-prices-in-Jeddah/ | Text: أسعار نقل العفش في جدة ➜
+   - File: blog/furniture-moving-prices-in-Jeddah/index.html | Href: /blog/furniture-moving-prices-in-Jeddah/ | Text: كم تكلفة نقل العفش في جدة ➜
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف العفش
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف الأثاث الخشبي
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف الأثاث للشحن الدولي
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف الأثاث للشحن الدولي
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف الأثاث
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف الأثاث
+   - File: blog/materials-used-in-furniture-packaging/index.html | Href: https://almukhtar-moving.com/blog/materials-used-in-furniture-packaging/ | Text: مواد تغليف الأثاث ➜
+   - File: blog/moving-electrical-appliances-in-jeddah/index.html | Href: /blog/moving-electrical-appliances-in-jeddah/ | Text: 🔧 فك وتركيب الأجهزة
+   - File: blog/moving-electrical-appliances-in-jeddah/index.html | Href: https://almukhtar-moving.com/blog/moving-electrical-appliances-in-jeddah/ | Text: الثلاجات والغسالات والمكيفات والأفران
+   - File: blog/moving-electrical-appliances-in-jeddah/index.html | Href: /blog/moving-electrical-appliances-in-jeddah/ | Text: فك وتركيب الأجهزة الكهربائية
+   - File: blog/moving-electrical-appliances-in-jeddah/index.html | Href: https://almukhtar-moving.com/blog/moving-electrical-appliances-in-jeddah/ | Text: أفضل طريقة لنقل الأفران
+   - File: blog/moving-electrical-appliances-in-jeddah/index.html | Href: https://almukhtar-moving.com/blog/moving-electrical-appliances-in-jeddah/ | Text: أفضل طريقة لنقل الأجهزة الكهربائية ➜
+   - File: cities/jeddah-to-riyadh/index.html | Href: ../jeddah-to-riyadh/ | Text: نقل عفش من جدة للرياض
+   - File: cities/jeddah-to-taif/index.html | Href: ../jeddah-to-taif/ | Text: نقل عفش من جدة للطائف
+   - File: furniture-moving-within-jeddah/index.html | Href: https://almukhtar-moving.com/furniture-moving-within-jeddah/ | Text: نقل العفش بجدة ➜
+   - File: furniture-storage-warehouses-in-jeddah/index.html | Href: https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/ | Text: خدمات تخزين العفش في جدة
+   - File: furniture-storage-warehouses-in-jeddah/index.html | Href: https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/ | Text: خدمات تخزين العفش في جدة
+   - File: furniture-storage-warehouses-in-jeddah/index.html | Href: https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/ | Text: شركة تخزين أثاث بجدة
+   - File: furniture-storage-warehouses-in-jeddah/index.html | Href: https://almukhtar-moving.com/furniture-storage-warehouses-in-jeddah/ | Text: خدمات تخزين العفش في جدة
+   - File: moving-kitchens-in-jeddah/index.html | Href: /moving-kitchens-in-jeddah/ | Text: فك وتركيب المطابخ في جدة
+   - File: moving-kitchens-in-jeddah/index.html | Href: /moving-kitchens-in-jeddah/ | Text: فك وتركيب المطابخ في جدة
+   - File: moving-kitchens-in-jeddah/index.html | Href: /moving-kitchens-in-jeddah/ | Text: خدمة نقل مطابخ المكاتب والشركات
+   - File: moving-kitchens-in-jeddah/index.html | Href: /moving-kitchens-in-jeddah/ | Text: نقل مطابخ المكاتب والشركات
+   - File: services/bedroom-disassembly-installation/index.html | Href: /services/bedroom-disassembly-installation/ | Text: فك وتركيب غرف النوم
+
+5. Anchors without href: 0
