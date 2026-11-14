@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
@@ -79,31 +79,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         :root { --primary-color: #1e3b94; --secondary-color: #fa913c; }
-        body { font-family: 'Cairo', sans-serif; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 ); }
+        body { font-family: 'Cairo', sans-serif; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); }
         .section-title { border-right: 5px solid var(--primary-color); padding-right: 15px; margin: 3rem 0 1.5rem 0; }
         .keyword-highlight { background-color: rgba(30, 59, 148, 0.1); padding: 0.2rem 0.5rem; border-radius: 4px; color: var(--primary-color); font-weight: 600; }
         .secondary-keyword { background-color: rgba(250, 145, 60, 0.1); color: var(--secondary-color); }
         .primary-bg { background-color: var(--primary-color); }
         .secondary-bg { background-color: var(--secondary-color); }
-        .price-card { background: white; border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition: all 0.3s ease; height: ; }
+        .price-card { background: white; border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition: all 0.3s ease; height: 100%; }
         .price-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
-        .info-box { background: linear-gradient(135deg, rgba(30,59,148,0.05) 0%, rgba(30,59,148,0.02) ); border-right: 4px solid var(--primary-color); border-radius: 1rem; padding: 1.5rem; margin: 2rem 0; }
-        .warning-box { background: linear-gradient(135deg, rgba(250,145,60,0.05) 0%, rgba(250,145,60,0.02) ); border-right: 4px solid var(--secondary-color); border-radius: 1rem; padding: 1.5rem; margin: 2rem 0; }
+        .info-box { background: linear-gradient(135deg, rgba(30,59,148,0.05) 0%, rgba(30,59,148,0.02) 100%); border-right: 4px solid var(--primary-color); border-radius: 1rem; padding: 1.5rem; margin: 2rem 0; }
+        .warning-box { background: linear-gradient(135deg, rgba(250,145,60,0.05) 0%, rgba(250,145,60,0.02) 100%); border-right: 4px solid var(--secondary-color); border-radius: 1rem; padding: 1.5rem; margin: 2rem 0; }
         .sticky-sidebar { position: sticky; top: 120px; }
-        .season-card { background: white; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: all 0.3s ease; border: 1px solid #e5e7eb; height: ; }
+        .season-card { background: white; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: all 0.3s ease; border: 1px solid #e5e7eb; height: 100%; }
         .season-card:hover { border-color: var(--primary-color); box-shadow: 0 10px 25px rgba(30,59,148,0.1); }
-        table { width: ; border-collapse: collapse; }
+        table { width: 100%; border-collapse: collapse; }
         th { background-color: var(--primary-color); color: white; font-weight: 600; }
         td, th { border: 1px solid #e5e7eb; padding: 1rem; text-align: center; }
         tr:nth-child(even) { background-color: #f9fafb; }
-        .price-tag { background: linear-gradient(135deg, var(--secondary-color) 0%, #e67e22 ); color: white; padding: 0.5rem 1rem; border-radius: 2rem; display: inline-block; font-weight: bold; }
-        .progress-bar { position: fixed; top: 0; right: 0; width: ; height: 4px; background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) ); transform-origin: right; z-index: 9999; }
+        .price-tag { background: linear-gradient(135deg, var(--secondary-color) 0%, #e67e22 100%); color: white; padding: 0.5rem 1rem; border-radius: 2rem; display: inline-block; font-weight: bold; }
+        .progress-bar { position: fixed; top: 0; right: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%); transform-origin: right; z-index: 9999; }
         .floating-buttons { position: fixed; bottom: 20px; left: 20px; display: flex; flex-direction: column; gap: 12px; z-index: 99999; }
         .floating-buttons a { text-decoration: none; color: #fff; font-size: 18px; font-weight: bold; padding: 14px 22px; border-radius: 50px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); transition: 0.3s ease; display: flex; align-items: center; gap: 8px; }
         .call-btn { background: #007bff; }
         .whatsapp-btn { background: #25D366; }
         .floating-buttons a:hover { transform: scale(1.08); }
-        .area-card { background: linear-gradient(135deg, #ffffff 0%, #f8fafc ); border-radius: 1rem; padding: 1rem; border: 1px solid #e5e7eb; transition: all 0.3s ease; }
+        .area-card { background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%); border-radius: 1rem; padding: 1rem; border: 1px solid #e5e7eb; transition: all 0.3s ease; }
         .area-card:hover { border-color: var(--secondary-color); transform: translateX(-5px); }
     </style>
 </head>
@@ -238,7 +238,7 @@
                 <!-- H2: أفضل أيام الأسبوع -->
                 <section id="days" class="bg-white rounded-2xl shadow-lg p-8 mb-8">
                     <h2 class="text-3xl font-bold mb-6 section-title">أفضل أيام الأسبوع لنقل العفش في جدة</h2>
-                    <p class="text-lg mb-6">إذا كنت تبحث عن <span class="keyword-highlight">أفضل وقت لنقل العفش بجدة</span> من حيث السعر والازدحام، فإن <span class="keyword-highlight">أيام الأسبوع (الأحد إلى الأربعاء)</span> هي الخيار الأمثل. <a href="https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/" class="text-primary font-bold">أرخص شركة نقل عفش في جدة</a> تقدم خصومات تصل إلى 40% للحجز في أيام الأسبوع. لماذا؟ لأن معظم الناس يفضلون النقل في عطلة نهاية الأسبوع (الخميس والجمعة والسبت)، مما يزيد الطلب ويؤدي إلى ارتفاع الأسعار. <span class="keyword-highlight">أقل أوقات ازدحام شوارع جدة</span> تكون في أيام الأحد والاثنين والثلاثاء، حيث تكون حركة المرور أخف بكثير من نهاية الأسبوع. يوم الأربعاء هو يوم جيد أيضاً، لكنه قد يشهد بعض الازدحام في فترة ما بعد الظهر. يوم الخميس هو أسوأ يوم للنقل، حيث تبدأ العائلات في الخروج للتنزه والتسوق، والشوارع مزدحمة للغاية. يوم الجمعة هو يوم عطلة رسمية، ومعظم الشركات لا تعمل أو تعمل بساعات محدودة، وقد تفرض رسوماً إضافية. يوم السبت هو يوم بداية الأسبوع، وقد يكون مقبولاً لكن الطلب مرتفع. <span  class="text-primary font-bold">نقل اثاث المنازل بجدة</span> في أيام الأسبوع يضمن لك وصول أسرع وعمالة متفرغة. <a href="https://almukhtar-moving.com/furniture-moving-within-jeddah/" class="text-primary">نقل عفش داخل جدة</a> في يوم الاثنين مثلاً قد يكلفك 1300 ريال بينما في يوم الخميس قد يكلف 1700 ريال لنفس الشقة! ننصحك بالحجز قبل أسبوع على الأقل من تاريخ النقل المطلوب، خاصة إذا كنت تريد يوماً محدداً.</p>
+                    <p class="text-lg mb-6">إذا كنت تبحث عن <span class="keyword-highlight">أفضل وقت لنقل العفش بجدة</span> من حيث السعر والازدحام، فإن <span class="keyword-highlight">أيام الأسبوع (الأحد إلى الأربعاء)</span> هي الخيار الأمثل. <a href="https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/" class="text-primary font-bold">أرخص شركة نقل عفش في جدة</a> تقدم خصومات تصل إلى 25% للحجز في أيام الأسبوع. لماذا؟ لأن معظم الناس يفضلون النقل في عطلة نهاية الأسبوع (الخميس والجمعة والسبت)، مما يزيد الطلب ويؤدي إلى ارتفاع الأسعار. <span class="keyword-highlight">أقل أوقات ازدحام شوارع جدة</span> تكون في أيام الأحد والاثنين والثلاثاء، حيث تكون حركة المرور أخف بكثير من نهاية الأسبوع. يوم الأربعاء هو يوم جيد أيضاً، لكنه قد يشهد بعض الازدحام في فترة ما بعد الظهر. يوم الخميس هو أسوأ يوم للنقل، حيث تبدأ العائلات في الخروج للتنزه والتسوق، والشوارع مزدحمة للغاية. يوم الجمعة هو يوم عطلة رسمية، ومعظم الشركات لا تعمل أو تعمل بساعات محدودة، وقد تفرض رسوماً إضافية. يوم السبت هو يوم بداية الأسبوع، وقد يكون مقبولاً لكن الطلب مرتفع. <span  class="text-primary font-bold">نقل اثاث المنازل بجدة</span> في أيام الأسبوع يضمن لك وصول أسرع وعمالة متفرغة. <a href="https://almukhtar-moving.com/furniture-moving-within-jeddah/" class="text-primary">نقل عفش داخل جدة</a> في يوم الاثنين مثلاً قد يكلفك 1300 ريال بينما في يوم الخميس قد يكلف 1700 ريال لنفس الشقة! ننصحك بالحجز قبل أسبوع على الأقل من تاريخ النقل المطلوب، خاصة إذا كنت تريد يوماً محدداً.</p>
                     <div class="overflow-x-auto mb-6">
                         <table class="min-w-full">
                             <thead><tr><th>اليوم</th><th>مستوى الازدحام</th><th>السعر التقريبي (شقة 3 غرف)</th><th>التوصية</th></tr></thead>
@@ -297,7 +297,7 @@
                         <div class="info-box"><h4 class="font-bold text-lg mb-2">🚦 3. تابع حالة المرور</h4><p>استخدم تطبيقات الخرائط لمعرفة <span class="keyword-highlight">أقل أوقات ازدحام شوارع جدة</span> واختر وقتاً يكون الطريق فيه سالكاً.</p></div>
                         <div class="info-box"><h4 class="font-bold text-lg mb-2">👥 4. راعِ جيرانك</h4><p>تجنب النقل في أوقات متأخرة من الليل أو صباح يوم الجمعة (وقت الصلاة) حتى لا تزعج جيرانك.</p><a href="https://almukhtar-moving.com/blog/best-moving-company-jeddah/" class="text-primary">أفضل شركات نقل العفش ←</a></div>
                         <div class="info-box"><h4 class="font-bold text-lg mb-2">📦 5. جهز العفش مسبقاً</h4><p>تجهيز العفش قبل يوم النقل يسرع العملية ويسمح لك باختيار <span class="keyword-highlight">توقيت نقل العفش المثالي</span> دون تأخير.</p><span  class="text-primary">تغليف العفش الاحترافي →</span></div>
-                        <div class="info-box"><h4 class="font-bold text-lg mb-2">💰 6. تفاوض على السعر</h4><p>إذا كنت تختار وقتاً غير مزدحم، اطلب خصماً. العديد من الشركات تقدم خصومات تصل إلى 40% للنقل في أيام الأسبوع.</p><a href="https://almukhtar-moving.com/blog/comparison-between-furniture-moving-companies/" class="text-primary">مقارنة الأسعار ←</a></div>
+                        <div class="info-box"><h4 class="font-bold text-lg mb-2">💰 6. تفاوض على السعر</h4><p>إذا كنت تختار وقتاً غير مزدحم، اطلب خصماً. العديد من الشركات تقدم خصومات تصل إلى 30% للنقل في أيام الأسبوع.</p><a href="https://almukhtar-moving.com/blog/comparison-between-furniture-moving-companies/" class="text-primary">مقارنة الأسعار ←</a></div>
                     </div>
                 </section>
 
@@ -349,7 +349,7 @@
                             <div><p class="font-bold mb-2">📝 تحديد التوقيت</p><p class="opacity-90">نساعدك باختيار أفضل وقت</p></div>
                         </div>
                         <a href="tel:0561110020" class="inline-block bg-white text-blue-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition"><i class="fas fa-phone ml-2"></i>اتصل الآن للاستشارة المجانية</a>
-                        <p class="mt-6 opacity-80 text-sm">خصومات تصل إلى 40% عند الحجز في أفضل الأوقات</p>
+                        <p class="mt-6 opacity-80 text-sm">خصومات تصل إلى 30% عند الحجز في أفضل الأوقات</p>
                     </div>
                 </section>
             </div>

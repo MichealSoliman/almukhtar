@@ -92,3 +92,4 @@ with open(csv_path, 'w', encoding='utf-8', newline='') as f:
     writer.writerows(records)
 
 print(f"Extracted {len(records)} internal anchors to reports/anchors.csv")
+

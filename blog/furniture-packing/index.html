@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
@@ -195,7 +195,7 @@
 
         body {
             font-family: 'Cairo', sans-serif;
-            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 );
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
         }
 
         .section-title {
@@ -232,7 +232,7 @@
             top: 0;
             width: 3rem;
             height: 3rem;
-            background: linear-gradient(135deg, var(--primary-color) 0%, #142a6d );
+            background: linear-gradient(135deg, var(--primary-color) 0%, #142a6d 100%);
             color: white;
             border-radius: 50%;
             display: flex;
@@ -243,11 +243,11 @@
         }
 
         .tool-card {
-            background: linear-gradient(135deg, #ffffff 0%, #f8fafc );
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
             border: 1px solid #e5e7eb;
             border-radius: 1rem;
             padding: 1.5rem;
-            height: ;
+            height: 100%;
             transition: all 0.3s ease;
         }
 
@@ -257,7 +257,7 @@
         }
 
         .info-box {
-            background: linear-gradient(135deg, rgba(30, 59, 148, 0.05) 0%, rgba(30, 59, 148, 0.02) );
+            background: linear-gradient(135deg, rgba(30, 59, 148, 0.05) 0%, rgba(30, 59, 148, 0.02) 100%);
             border-right: 4px solid var(--primary-color);
             border-radius: 1rem;
             padding: 1.5rem;
@@ -265,7 +265,7 @@
         }
 
         .warning-box {
-            background: linear-gradient(135deg, rgba(250, 145, 60, 0.05) 0%, rgba(250, 145, 60, 0.02) );
+            background: linear-gradient(135deg, rgba(250, 145, 60, 0.05) 0%, rgba(250, 145, 60, 0.02) 100%);
             border-right: 4px solid var(--secondary-color);
             border-radius: 1rem;
             padding: 1.5rem;
@@ -295,16 +295,16 @@
 
         .nav-link:hover::after,
         .nav-link.active::after {
-            width: ;
+            width: 100%;
         }
 
         .progress-bar {
             position: fixed;
             top: 0;
             right: 0;
-            width: ;
+            width: 100%;
             height: 4px;
-            background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) );
+            background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
             transform-origin: right;
             z-index: 9999;
         }
@@ -334,13 +334,13 @@
                 box-shadow: 0 0 0 10px rgba(30, 59, 148, 0);
             }
 
-             {
+            100% {
                 box-shadow: 0 0 0 0 rgba(30, 59, 148, 0);
             }
         }
 
         .comparison-table {
-            width: ;
+            width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }

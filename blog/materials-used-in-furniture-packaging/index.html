@@ -106,7 +106,7 @@
         
         body {
             font-family: 'Cairo', sans-serif;
-            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 );
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
         }
         
         .section-title {
@@ -169,11 +169,11 @@
         }
         
         .tool-card {
-            background: linear-gradient(135deg, #ffffff 0%, #f8fafc );
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
             border: 1px solid #e5e7eb;
             border-radius: 1rem;
             padding: 1.5rem;
-            height: ;
+            height: 100%;
             transition: all 0.3s ease;
         }
         
@@ -183,7 +183,7 @@
         }
         
         .info-box {
-            background: linear-gradient(135deg, rgba(30, 59, 148, 0.05) 0%, rgba(30, 59, 148, 0.02) );
+            background: linear-gradient(135deg, rgba(30, 59, 148, 0.05) 0%, rgba(30, 59, 148, 0.02) 100%);
             border-right: 4px solid var(--primary-color);
             border-radius: 1rem;
             padding: 1.5rem;
@@ -191,7 +191,7 @@
         }
         
         .warning-box {
-            background: linear-gradient(135deg, rgba(250, 145, 60, 0.05) 0%, rgba(250, 145, 60, 0.02) );
+            background: linear-gradient(135deg, rgba(250, 145, 60, 0.05) 0%, rgba(250, 145, 60, 0.02) 100%);
             border-right: 4px solid var(--secondary-color);
             border-radius: 1rem;
             padding: 1.5rem;
@@ -221,16 +221,16 @@
         
         .nav-link:hover::after,
         .nav-link.active::after {
-            width: ;
+            width: 100%;
         }
         
         .progress-bar {
             position: fixed;
             top: 0;
             right: 0;
-            width: ;
+            width: 100%;
             height: 4px;
-            background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) );
+            background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
             transform-origin: right;
             z-index: 9999;
         }
@@ -246,7 +246,7 @@
         @keyframes pulse {
             0% { box-shadow: 0 0 0 0 rgba(30, 59, 148, 0.7); }
             70% { box-shadow: 0 0 0 10px rgba(30, 59, 148, 0); }
-             { box-shadow: 0 0 0 0 rgba(30, 59, 148, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(30, 59, 148, 0); }
         }
 
         .material-icon {
@@ -339,7 +339,7 @@
         .floating-buttons a:hover { transform: scale(1.08); }
 
         .price-table {
-            width: ;
+            width: 100%;
             border-collapse: collapse;
         }
         .price-table th {
@@ -715,13 +715,13 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td>فقاعات هوائية (Bubble Wrap)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>زجاج، أجهزة، مرايا</td><td>عالية الكثافة</td></tr>
-                                <tr><td>فوم واقي (Foam)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>أسطح خشبية، طاولات</td><td>سمك 5-10 مم</td></tr>
-                                <tr><td>كرتون مقوى (Cardboard)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>صناديق، فواصل، تغليف عام</td><td>مضلع مزدوج</td></tr>
-                                <tr><td>استرتش بلاستيكي (Stretch Film)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>تثبيت الطبقات، حماية من الغبار</td><td>سمك 20 ميكرون</td></tr>
-                                <tr><td>أغطية نقل (Moving Blankets)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>كنب، أثاث كبير</td><td>قطن ثقيل</td></tr>
-                                <tr><td>زوايا واقية (Edge Protectors)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>زوايا الطاولات والمكاتب</td><td>فوم أو كرتون مقوى</td></tr>
-                                <tr><td>صناديق خشبية (Wooden Crates)</td><td><span class="price-tag">حسب الكمية والمسافة</span></td><td>تحف، رخام، شحن دولي</td><td>خشب متين مع فوم داخلي</td></tr>
+                                <tr><td>فقاعات هوائية (Bubble Wrap)</td><td><span class="price-tag">5-15 ريال</span></td><td>زجاج، أجهزة، مرايا</td><td>عالية الكثافة</td></tr>
+                                <tr><td>فوم واقي (Foam)</td><td><span class="price-tag">8-20 ريال</span></td><td>أسطح خشبية، طاولات</td><td>سمك 5-10 مم</td></tr>
+                                <tr><td>كرتون مقوى (Cardboard)</td><td><span class="price-tag">3-8 ريال</span></td><td>صناديق، فواصل، تغليف عام</td><td>مضلع مزدوج</td></tr>
+                                <tr><td>استرتش بلاستيكي (Stretch Film)</td><td><span class="price-tag">10-25 ريال</span></td><td>تثبيت الطبقات، حماية من الغبار</td><td>سمك 20 ميكرون</td></tr>
+                                <tr><td>أغطية نقل (Moving Blankets)</td><td><span class="price-tag">50-150 ريال</span></td><td>كنب، أثاث كبير</td><td>قطن ثقيل</td></tr>
+                                <tr><td>زوايا واقية (Edge Protectors)</td><td><span class="price-tag">2-5 ريال</span></td><td>زوايا الطاولات والمكاتب</td><td>فوم أو كرتون مقوى</td></tr>
+                                <tr><td>صناديق خشبية (Wooden Crates)</td><td><span class="price-tag">200-600 ريال</span></td><td>تحف، رخام، شحن دولي</td><td>خشب متين مع فوم داخلي</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -925,7 +925,7 @@
                         
                         <div class="faq-item"><div class="faq-question">ما الفرق بين تغليف النقل داخل السعودية وتغليف الشحن الخارجي؟ <i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>تغليف النقل داخل السعودية يركز على حماية من الخدوش والصدمات الخفيفة، بينما تغليف الشحن الخارجي يتطلب طبقات أكثر سمكًا، واستخدام الصناديق الخشبية للقطع الحساسة، وحماية إضافية من الرطوبة وتغيرات الحرارة. <span  class="text-blue-600">شحن الأثاث خارج جدة</span> يحتاج تغليفاً أكثر احترافية.</p></div></div>
                         
-                        <div class="faq-item"><div class="faq-question">كم تكلفة مواد تغليف الأثاث في السعودية؟ <i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>تختلف أسعار مواد تغليف الأثاث حسب النوع والجودة. الفقاعات الهوائية تتراوح بين حسب الكمية والمسافة للمتر، الفوم حسب الكمية والمسافة، الكرتون المقوى حسب الكمية والمسافة، الاسترتش حسب الكمية والمسافة، أغطية النقل حسب الكمية والمسافة، والصناديق الخشبية حسب الكمية والمسافة. <a href="https://almukhtar-moving.com/blog/furniture-moving-prices-in-Jeddah/" class="text-blue-600">تكلفة نقل العفش</a> تشمل مواد التغليف.</p></div></div>
+                        <div class="faq-item"><div class="faq-question">كم تكلفة مواد تغليف الأثاث في السعودية؟ <i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>تختلف أسعار مواد تغليف الأثاث حسب النوع والجودة. الفقاعات الهوائية تتراوح بين 5-15 ريال للمتر، الفوم 8-20 ريال، الكرتون المقوى 3-8 ريال، الاسترتش 10-25 ريال، أغطية النقل 50-150 ريال، والصناديق الخشبية 200-600 ريال. <a href="https://almukhtar-moving.com/blog/furniture-moving-prices-in-Jeddah/" class="text-blue-600">تكلفة نقل العفش</a> تشمل مواد التغليف.</p></div></div>
                         
                         <div class="faq-item"><div class="faq-question">كيف أحمي الزجاج والمرايا أثناء النقل؟ <i class="fas fa-chevron-down"></i></div><div class="faq-answer"><p>لحماية الزجاج والمرايا أثناء النقل، استخدم طبقة من الفقاعات الهوائية، ثم الكرتون المقوى، ثم ضعها في صناديق خشبية للنقل الطويل. تأكد من وضع علامات "هش" على الصناديق. <a href="https://almukhtar-moving.com/blog/glass-and-mirror-coating/" class="text-blue-600">تغليف الزجاج والمرايا</a> يتطلب عناية خاصة.</p></div></div>
                         
