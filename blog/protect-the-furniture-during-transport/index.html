@@ -30,7 +30,8 @@
     <!-- Preconnect -->
     
     <!-- Tailwind + Font Awesome -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preload" href="../../style.css" as="style">
+    <link rel="stylesheet" href="../../style.css">
     <style>
         @font-face {
             font-family: 'Cairo';
@@ -49,24 +50,28 @@
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
     
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#0F172A',
-                        secondary: '#F97316',
-                        secondaryDark: '#EA580C',
-                    },
-                    fontFamily: {
-                        arabic: ['Cairo', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <style>
+        /* ألوان الصفحة (كانت تُولَّد سابقاً عبر Tailwind CDN) */
+        .text-primary{color:#0F172A}
+        .text-secondary{color:#F97316}
+        .bg-secondary{background-color:rgb(249 115 22/var(--tw-bg-opacity,1))}
+        .bg-secondary\/5{background-color:rgba(249,115,22,.05)}
+        .bg-secondary\/10{background-color:rgba(249,115,22,.1)}
+        .bg-secondary\/80{background-color:rgba(249,115,22,.8)}
+        .border-secondary{border-color:#F97316}
+        .font-arabic{font-family:Cairo,sans-serif}
+        .from-primary{--tw-gradient-from:#0F172A var(--tw-gradient-from-position);--tw-gradient-to:rgba(15,23,42,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}
+        .from-secondary{--tw-gradient-from:#F97316 var(--tw-gradient-from-position);--tw-gradient-to:rgba(249,115,22,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}
+        .from-secondary\/10{--tw-gradient-from:rgba(249,115,22,.1) var(--tw-gradient-from-position);--tw-gradient-to:rgba(249,115,22,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}
+        .to-primary{--tw-gradient-to:#0F172A var(--tw-gradient-to-position)}
+        .to-primary\/10{--tw-gradient-to:rgba(15,23,42,.1) var(--tw-gradient-to-position)}
+        .to-primary\/90{--tw-gradient-to:rgba(15,23,42,.9) var(--tw-gradient-to-position)}
+        .hover\:bg-secondaryDark:hover{background-color:#EA580C}
+    </style>
     
     <style>
         body { font-family: 'Cairo', sans-serif; scroll-behavior: smooth; background: #F8FAFC; }
@@ -239,17 +244,7 @@
                 <!-- Cost -->
                 <section id="cost" class="bg-white rounded-2xl shadow-lg p-6 md:p-8 content-section">
                     <h2 class="text-2xl font-bold text-primary mb-4">💰 تكلفة نقل العفش الآمن في جدة 2026</h2>
-                    <div class="overflow-x-auto">
-                        <table class="w-full border-collapse">
-                            <thead><tr class="bg-primary text-white"><th class="p-3 border">الخدمة</th><th class="p-3 border">التكلفة التقريبية</th></tr></thead>
-                            <tbody>
-                                <tr class="border-b"><td class="p-3">تغليف غرفة نوم كاملة</td><td class="p-3">250 - 450 ريال</td></tr>
-                                <tr class="border-b bg-gray-50"><td class="p-3">تغليف شقة (غرفتين)</td><td class="p-3">600 - 900 ريال</td></tr>
-                                <tr class="border-b"><td class="p-3">نقل + تغليف فيلا كاملة</td><td class="p-3">1200 - 2500 ريال</td></tr>
-                                <tr class="bg-gray-50"><td class="p-3">خدمة تغليف احترافية فقط</td><td class="p-3">300 - 800 ريال</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <p class="text-gray-700 leading-relaxed my-6">تُحدَّد تكلفة النقل بعد <strong>معاينة مجانية</strong> حسب حجم الأثاث وعدد الغرف، والدور ووجود مصعد، والمسافة، والخدمات المطلوبة مثل الفك والتركيب والتغليف. للحصول على عرض سعر مكتوب اتصل على <a href="tel:0561110020" class="font-bold">0561110020</a>.</p>
                     <p class="text-sm text-gray-500 mt-3">* الأسعار تقديرية وتعتمد على حجم الأثاث والمسافة. اتصل بنا للحصول على عرض سعر دقيق ومجاني.</p>
                 </section>
 
@@ -291,26 +286,22 @@
 
                         <a href="/blog/best-moving-company-jeddah/"
                             class="flex items-center justify-between bg-white p-5 rounded-xl shadow hover:shadow-lg transition duration-300 hover:-translate-y-1 group">
-                            <span>أفضل شركات نقل العفش في جدة</span>
-                            <span class="text-primary text-lg group-hover:translate-x-1 transition">➜</span>
+                            معايير اختيار شركة نقل العفش ➜
                         </a>
 
                         <a href="/blog/best-moving-company-jeddah/"
                             class="flex items-center justify-between bg-white p-5 rounded-xl shadow hover:shadow-lg transition duration-300 hover:-translate-y-1 group">
-                            <span>أفضل شركة نقل عفش في جدة</span>
-                            <span class="text-primary text-lg group-hover:translate-x-1 transition">➜</span>
+                            كيف تختار شركة نقل عفش موثوقة ➜
                         </a>
 
                         <a href="/blog/cheapest-furniture-moving-company-in-jeddah/"
                             class="flex items-center justify-between bg-white p-5 rounded-xl shadow hover:shadow-lg transition duration-300 hover:-translate-y-1 group">
-                            <span>نقل عفش رخيص في جدة</span>
-                            <span class="text-primary text-lg group-hover:translate-x-1 transition">➜</span>
+                            نصائح لتقليل تكلفة النقل ➜
                         </a>
 
                         <a href="/blog/cheapest-furniture-moving-company-in-jeddah/"
                             class="flex items-center justify-between bg-white p-5 rounded-xl shadow hover:shadow-lg transition duration-300 hover:-translate-y-1 group">
-                            <span>أرخص شركة نقل عفش في جدة</span>
-                            <span class="text-primary text-lg group-hover:translate-x-1 transition">➜</span>
+                            دليل نقل العفش بسعر مناسب ➜
                         </a>
 
                         <span 
@@ -425,7 +416,7 @@
                 <!-- Final CTA -->
                 <section class="bg-gradient-to-r from-secondary to-primary text-white rounded-2xl p-8 text-center">
                     <h3 class="text-2xl font-bold mb-3">احجز خدمة النقل الآمن اليوم</h3>
-                    <p class="mb-5">معاينة مجانية - تغليف احترافي - ضمان ضد التلف - خصم 35%</p>
+                    <p class="mb-5">تُحدَّد التكلفة بعد معاينة مجانية حسب حجم الأثاث والمسافة والخدمات المطلوبة.</p>
                     <div class="flex flex-wrap justify-center gap-4">
                         <a href="tel:0561110020" class="bg-white text-primary px-8 py-3 rounded-xl font-bold shadow-lg hover:bg-gray-100"><i class="fas fa-phone ml-2"></i> 0561110020</a>
                         <a href="https://wa.me/966561110020" class="bg-green-600 px-8 py-3 rounded-xl font-bold shadow-lg hover:bg-green-700"><i class="fab fa-whatsapp ml-2"></i> واتساب</a>

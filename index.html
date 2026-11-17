@@ -98,7 +98,6 @@
             ],
             "telephone": "+966561110020",
             "description": "شركة المختار لنقل العفش بجدة — خدمات متكاملة في فك وتركيب وتغليف الأثاث، دينا نقل عفش مجهزة داخل جميع أحياء جدة بأسعار تنافسية وضمان شامل.",
-            "priceRange": "150 - 1200 SAR",
             "currenciesAccepted": "SAR",
             "paymentAccepted": "Cash, Bank Transfer",
             "address": {
@@ -229,7 +228,21 @@
               "@type": "ContactPoint",
               "telephone": "+966561110020",
               "contactType": "customer service",
-              "availableLanguage": "Arabic"
+              "availableLanguage": "Arabic",
+              "hoursAvailable": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Saturday",
+                  "Sunday",
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "00:00",
+                "closes": "23:59"
+              }
             },
             "sameAs": [
               "https://wa.me/966561110020"
@@ -320,7 +333,7 @@
                 "name": "كم تكلفة نقل العفش في جدة؟",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "تختلف التكلفة حسب حجم الأثاث وعدد الغرف. بشكل تقديري، تبدأ الأسعار من 150 ريال وتصل إلى 1200 ريال للفلل. يمكننا تقديم عرض سعر دقيق بعد التواصل أو المعاينة."
+                  "text": "تختلف التكلفة حسب حجم الأثاث وعدد الغرف. يمكننا تقديم عرض سعر دقيق بعد التواصل أو المعاينة."
                 }
               },
               {
@@ -1708,43 +1721,12 @@
                             أسعار نقل العفش في جدة
                         </h2>
                         <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            نقدم لك قائمة أسعار تقديرية لخدماتنا. تعتمد التكلفة النهائية على متطلباتك الخاصة،
-                            وتساعدنا المعاينة المجانية في تقديم تسعير دقيق ونهائي.
+                            لا نعلن قائمة أسعار ثابتة لأن تكلفة كل عملية نقل تختلف عن غيرها. تُحدَّد التكلفة بعد <strong>معاينة مجانية</strong>
+                            حسب حجم الأثاث وعدد الغرف، والدور ووجود مصعد، والمسافة، والخدمات المطلوبة مثل الفك والتركيب والتغليف،
+                            ونقدم لك عرض سعر مكتوب قبل بدء العمل.
                         </p>
                     </div>
 
-                    <div class="overflow-x-auto mb-6">
-                        <table class="w-full text-right border-collapse min-w-[600px]">
-                            <thead>
-                                <tr class="bg-gray-100 text-gray-800 text-sm md:text-base border-b border-gray-300">
-                                    <th class="p-4 font-bold rounded-r-xl">نوع الخدمة / حجم السكن</th>
-                                    <th class="p-4 font-bold">المعدات والمكونات</th>
-                                    <th class="p-4 font-bold">متوسط السعر</th>
-                                    <th class="p-4 font-bold rounded-l-xl text-center">الخصم المتاح</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-200 text-sm md:text-base text-gray-700">
-                                <tr class="hover:bg-blue-50/50 transition-colors">
-                                    <td class="p-4 font-bold text-gray-900">نقل شقة صغيرة (غرفتان وصالة)</td>
-                                    <td class="p-4">دينا نقل صغيرة + فك وتركيب + تغليف غرفتين</td>
-                                    <td class="p-4 text-blue-700 font-extrabold">150 - 300 ريال</td>
-                                    <td class="p-4 text-center"><span class="bg-green-100 text-green-700 text-xs font-bold px-2.5 py-1 rounded-full">خصم 20%</span></td>
-                                </tr>
-                                <tr class="hover:bg-blue-50/50 transition-colors">
-                                    <td class="p-4 font-bold text-gray-900">نقل شقة متوسطة / كبيرة (3-5 غرف)</td>
-                                    <td class="p-4">دينا كبيرة مغلقة + عمالة متخصصة + تغليف شامل</td>
-                                    <td class="p-4 text-blue-700 font-extrabold">350 - 600 ريال</td>
-                                    <td class="p-4 text-center"><span class="bg-green-100 text-green-700 text-xs font-bold px-2.5 py-1 rounded-full">خصم 25%</span></td>
-                                </tr>
-                                <tr class="hover:bg-blue-50/50 transition-colors">
-                                    <td class="p-4 font-bold text-gray-900">نقل فيلا كاملة أو دوبلكس بجدة</td>
-                                    <td class="p-4">2 شاحنة دينا + طاقم عمال كامل</td>
-                                    <td class="p-4 text-blue-700 font-extrabold">700 - 1200 ريال</td>
-                                    <td class="p-4 text-center"><span class="bg-green-100 text-green-700 text-xs font-bold px-2.5 py-1 rounded-full">خصم 30%</span></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
 
                     <div class="bg-blue-50 rounded-xl p-4 md:p-6 text-center max-w-4xl mx-auto border border-blue-100">
                         <p class="text-sm text-gray-700 mb-6">
@@ -1934,19 +1916,15 @@
                         عند الاطلاع على <a href="/blog/how-to-choose-a-furniture-moving-company-in-jeddah/" class="text-blue-600 font-bold hover:underline">دليل اختيار شركة نقل العفش</a>، ننصحك بمراعاة عدة معايير أساسية: أولاً، تأكد من أن الشركة لديها خبرة كافية وسمعة طيبة بين العملاء. ثانياً، اطلب عرض سعر مكتوباً يتضمن جميع التفاصيل بشفافية. ثالثاً، تحقق من توفر <a href="/guaranteed-furniture-moving-company-jeddah/" class="text-blue-600 hover:underline">ضمان على سلامة الأثاث</a> أثناء النقل. رابعاً، اسأل عن نوعية <a href="/blog/protect-the-furniture-during-transport/" class="text-blue-600 hover:underline">مواد التغليف المستخدمة</a> ومدى حرص الشركة على حماية ممتلكاتك.
                     </p>
                     <p class="text-gray-700 leading-relaxed text-base md:text-lg mb-4">
-                        في <strong>شركة المختار</strong>، نلتزم بكل هذه المعايير ونقدم لعملائنا ضماناً كاملاً على سلامة جميع المنقولات مع تعويض فوري في حالة حدوث أي ضرر — وهو ما يجعلنا واحدة من <a href="/blog/best-moving-company-jeddah/" class="text-blue-600 hover:underline">أفضل شركات نقل العفش في جدة</a>. كما نوفر إمكانية المعاينة المجانية قبل تحديد التكلفة النهائية.
+                        في <strong>شركة المختار</strong>، نلتزم بكل هذه المعايير ونقدم لعملائنا ضماناً كاملاً على سلامة جميع المنقولات مع تعويض فوري في حالة حدوث أي ضرر — وهو ما يجعلنا واحدة من <a href="/blog/best-moving-company-jeddah/" class="text-blue-600 hover:underline">دليل اختيار شركة النقل</a>. كما نوفر إمكانية المعاينة المجانية قبل تحديد التكلفة النهائية.
                     </p>
 
                     <!-- القسم 6 -->
                     <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 mt-10">
                         أسعار نقل العفش بجدة — شفافية ووضوح
                     </h3>
-                    <p class="text-gray-700 leading-relaxed text-base md:text-lg mb-4">
-                        تختلف <a href="/blog/furniture-moving-prices-in-Jeddah/" class="text-blue-600 font-bold hover:underline">أسعار نقل العفش في جدة</a> حسب عدة عوامل تشمل: حجم الأثاث المراد نقله، المسافة بين الموقعين، عدد الأدوار، ونوعية التغليف المطلوب. في شركة المختار، نقدم تسعيراً شفافاً يبدأ من 150 ريال للشقق الصغيرة ويشمل خدمات الفك والتركيب والتغليف الأساسي. نقل <a href="/household-furniture-moving-in-jeddah/" class="text-blue-600 hover:underline">عفش المنازل والشقق</a> يتراوح بين 150 و600 ريال، بينما نقل <a href="/villa-moving-in-jeddah/" class="text-blue-600 hover:underline">الفلل</a> يبدأ من 700 ريال.
-                    </p>
-                    <p class="text-gray-700 leading-relaxed text-base md:text-lg mb-4">
-                        نؤمن بأن الجودة والسعر العادل يمكن أن يجتمعا، لذلك نقدم <a href="/blog/cheapest-furniture-moving-company-in-jeddah/" class="text-blue-600 hover:underline">خدمات نقل عفش بأسعار رخيصة</a> مقارنة بالمنافسين مع الحفاظ على أعلى مستوى من الاحترافية. كما نقدم خصومات تصل إلى 30% على خدمات نقل الفلل والشقق الكبيرة، ويمكنك الاطلاع على <a href="/blog/comparison-between-furniture-moving-companies/" class="text-blue-600 hover:underline">مقارنة بين شركات نقل العفش</a> لتتأكد من أن أسعارنا الأفضل في السوق.
-                    </p>
+                    <p class="text-gray-700 leading-relaxed text-base md:text-lg mb-4">تختلف <a href="/blog/furniture-moving-prices-in-Jeddah/" class="text-blue-600 font-bold hover:underline">أسعار نقل العفش في جدة</a> حسب عدة عوامل تشمل: حجم الأثاث المراد نقله، المسافة بين الموقعين، عدد الأدوار، ونوعية التغليف المطلوب. تُحدَّد التكلفة بعد معاينة مجانية حسب حجم الأثاث والمسافة والخدمات المطلوبة.</p>
+                    <p class="text-gray-700 leading-relaxed text-base md:text-lg mb-4">نؤمن بأن الجودة والسعر العادل يمكن أن يجتمعا، لذلك نقدم <a href="/blog/cheapest-furniture-moving-company-in-jeddah/" class="text-blue-600 hover:underline">دليل نقل العفش بسعر مناسب</a> مقارنة بالمنافسين مع الحفاظ على أعلى مستوى من الاحترافية.</p>
 
                     <!-- CTA -->
                     <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 text-center text-white mt-10">
@@ -2004,11 +1982,7 @@
                             </svg>
                         </button>
                         <div class="faq-answer hidden px-6 md:px-8 pb-6">
-                            <p class="text-gray-700 leading-relaxed text-sm md:text-base pt-2 border-t border-gray-100">
-                                تختلف التكلفة حسب حجم الأثاث وعدد الغرف. بشكل تقديري، تبدأ الأسعار من 150 ريال وتصل إلى
-                                1200
-                                ريال للفلل. يمكننا تقديم عرض سعر دقيق بعد التواصل أو المعاينة.
-                            </p>
+                            <p class="text-gray-700 leading-relaxed text-sm md:text-base pt-2 border-t border-gray-100">تختلف التكلفة حسب حجم الأثاث وعدد الغرف. يمكننا تقديم عرض سعر دقيق بعد التواصل أو المعاينة.</p>
                         </div>
                     </div>
 
@@ -2337,10 +2311,7 @@
                         <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
                             جاهز لنقل عفشك بأمان وسهولة مع <span class="text-orange-400">شركة المختار</span>؟
                         </h2>
-                        <p class="text-blue-100 text-base md:text-lg mb-8">
-                            تواصل معنا الآن للحصول على معاينة مجانية وخصم حصري يصل إلى 30% على كافة خدمات نقل وتغليف وفك
-                            الأثاث.
-                        </p>
+                        <p class="text-blue-100 text-base md:text-lg mb-8">تُحدَّد التكلفة بعد معاينة مجانية حسب حجم الأثاث والمسافة والخدمات المطلوبة.</p>
                         <div class="flex flex-wrap justify-center items-center gap-4">
                             <a href="tel:0561110020"
                                 class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
@@ -2498,7 +2469,7 @@
                     </div>
                     <p class="text-gray-700 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
                         تواصل مع <span class="font-bold text-blue-700">شركة المختار</span> -
-                        <a href="/blog/best-moving-company-jeddah/" class="font-bold text-blue-700 hover:underline">دليل أفضل شركات نقل العفش</a> -
+                        <a href="/blog/best-moving-company-jeddah/" class="font-bold text-blue-700 hover:underline">معايير اختيار شركة نقل العفش</a> -
                         واحصل على <a href="/contact/" class="font-bold text-blue-700 hover:underline">استشارة
                             مجانية</a> و
                         <a href="/blog/furniture-moving-prices-in-Jeddah/"
@@ -2545,9 +2516,7 @@
                             </div>
                             <p class="text-2xl font-bold text-gray-800 mb-4">الواتساب</p>
                             <p class="text-gray-600 mb-6 leading-relaxed">
-                                أرسل لنا رسالة على الواتساب وسيتم الرد عليك فوراً. نقدم
-                                <a href="/contact/" class="font-bold text-green-700 hover:underline">عروض حصرية</a>
-                                للمتواصلين عبر الواتساب.
+                                أرسل لنا رسالة على الواتساب وسيتم الرد عليك فوراً.
                             </p>
                             <div class="bg-green-50 rounded-xl p-4 w-full mb-4">
                                 <p class="text-2xl font-bold text-green-700">0561110020</p>
@@ -2628,22 +2597,21 @@
                                 <div>
                                     <p class="text-xl font-bold text-white mb-2">يوم الجمعة</p>
                                     <p class="text-blue-100">الجمعة: 4 مساءً - 10 مساءً</p>
-                                    <p class="text-blue-100 text-sm">خدمة الطوارئ متاحة على مدار الساعة</p>
+                                    <p class="text-blue-100 text-sm">استقبال هاتفي وحجوزات متاحة 24/7</p>
                                 </div>
                             </div>
 
                             <div class="bg-white/5 rounded-xl p-6 mt-8">
-                                <p class="text-lg font-bold text-white mb-3">خدمات الطوارئ</p>
+                                <p class="text-lg font-bold text-white mb-3">الطلبات العاجلة</p>
                                 <p class="text-blue-100 mb-4">
-                                    نوفر
+                                    نستقبل الطلبات العاجلة لـ
                                     <a href="/furniture-moving-within-jeddah/"
-                                        class="font-bold text-white underline hover:text-blue-200">خدمة نقل عفش
-                                        طارئة</a>
-                                    على مدار الساعة للحالات العاجلة. اتصل بنا في أي وقت.
+                                        class="font-bold text-white underline hover:text-blue-200">نقل العفش داخل جدة</a>
+                                    على مدار الساعة، ونحدد معك أقرب موعد متاح للتنفيذ. اتصل بنا في أي وقت.
                                 </p>
                                 <a href="tel:0561110020"
                                     class="inline-flex items-center text-white font-bold hover:text-blue-200">
-                                    <i class="fas fa-ambulance ml-2"></i> طلب خدمة طارئة
+                                    <i class="fas fa-phone-alt ml-2"></i> اتصل لطلب عاجل
                                 </a>
                             </div>
                         </div>
@@ -2689,12 +2657,8 @@
                                     <i class="fas fa-star text-orange-600 text-xl"></i>
                                 </div>
                                 <div>
-                                    <p class="text-lg font-bold text-gray-800 mb-2">عروض حصرية</p>
-                                    <p class="text-gray-600">احصل على
-                                        <a href="/blog/cheapest-furniture-moving-company-in-jeddah/"
-                                            class="font-bold text-orange-700 hover:underline">خصومات وعروض حصرية</a>
-                                        عند التواصل معنا مباشرة.
-                                    </p>
+                                    <p class="text-lg font-bold text-gray-800 mb-2">عرض سعر مكتوب</p>
+                                    <p class="text-gray-600">تُحدَّد التكلفة بعد معاينة مجانية حسب حجم الأثاث والمسافة والخدمات المطلوبة.</p>
                                 </div>
                             </div>
 
