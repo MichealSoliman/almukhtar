@@ -864,7 +864,6 @@
             document.querySelectorAll('.faq-toggle').forEach(btn => { btn.addEventListener('click', () => { const content = btn.nextElementSibling; const icon = btn.querySelector('i'); if (content.style.maxHeight && content.style.maxHeight !== '0px') { content.style.maxHeight = null; icon.classList.remove('rotate-180'); } else { content.style.maxHeight = content.scrollHeight + "px"; icon.classList.add('rotate-180'); } }); });
         });
     </script>
-<script src="/assets/js/services-dropdown.js?v=2" defer></script>
 </body>
 
 </html>

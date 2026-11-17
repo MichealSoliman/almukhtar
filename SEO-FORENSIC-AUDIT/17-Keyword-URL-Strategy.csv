@@ -1,0 +1,34 @@
+﻿URL,Role,Primary Keyword,Secondary Keywords,Intent,Action,Condition / Dependency,Do NOT
+/,Money page (head term),شركة نقل عفش جدة,نقل عفش بجدة; أفضل شركة نقل عفش بجدة; شركة نقل أثاث بجدة; نقل أثاث جدة; نقل عفش جدة مع الفك والتركيب,Transactional-local,Improve (trust elements; verified facts; real photos; GBP link; trim generic guide section),Client materials (T06/T11) + GBP (T05),Do not change Title/H1/canonical
+/furniture-moving-within-jeddah/,Service (inter-district moves),نقل عفش داخل جدة,نقل عفش بين أحياء جدة,Transactional,Keep - differentiate or merge into / (decide after GSC),GSC Query->Pages data,Do not redirect before GSC; do not use anchor 'نقل عفش جدة' to it
+/apartment-furniture-moving-jeddah/,Service,نقل عفش شقق جدة,نقل أثاث شقق; نقل عفش عمائر,Transactional,Improve (floors/elevators/real examples); fix missing og:image,-,
+/household-furniture-moving-in-jeddah/,Service,نقل عفش منازل جدة,نقل أثاث منزلي; نقل عفش بيوت,Transactional,Improve differentiation vs apartments; add inlinks (only 6),Monitor overlap in GSC,
+/villa-moving-in-jeddah/,Service,نقل عفش فلل جدة,نقل أثاث فلل وقصور,Transactional,Keep; redirect anchors 'شركة نقل فلل بجدة' here,-,
+/office-and-company-relocation-in-jeddah/,Service,نقل مكاتب جدة,نقل شركات; نقل أثاث مكتبي,Transactional,Keep,-,
+/furniture-dismantling-and-assembly-in-jeddah/,Service (hub),شركة فك وتركيب عفش بجدة,نجار فك وتركيب; فك وتركيب أثاث,Transactional,Keep; candidate to absorb najjar article,GSC,
+/services/bedroom-disassembly-installation/,Service (sub),فك وتركيب غرف النوم جدة,تركيب غرف ايكيا,Transactional,Keep,-,
+/blog/najjar-fak-tarkeeb-afsh-jeddah/,Overlapping service-in-blog,نجار فك وتركيب عفش بجدة,-,Transactional,Merge candidate -> /furniture-dismantling-and-assembly-in-jeddah/ (301),Only if GSC shows no independent impressions,Do not merge blindly
+/moving-kitchens-in-jeddah/,Service,نقل مطابخ جدة,فك وتركيب مطابخ,Transactional,Keep,-,
+/moving-the-arab-councils-jeddah/,Service,نقل مجالس عربية جدة,نقل كنب,Transactional,Remove 'أفضل شركة نقل عفش جدة' from title,-,
+/air-conditioner-relocation-in-jeddah/,Service,فك وتركيب مكيفات جدة,نقل مكيفات,Transactional,Keep,-,
+/furniture-lifting-crane-jeddah/,Service,ونش رفع عفش جدة,ونش رفع أثاث; رفع عفش للأدوار العليا,Transactional,Restore (remove 301) if service is real,Client confirms service (T01),Do not keep 301 + sitemap + nav simultaneously
+/furniture-moving-truck-jeddah/,Service,دينا نقل عفش جدة,سيارة نقل عفش مغلقة,Transactional,Improve with real fleet photos,Client photos,
+/furniture-moving-labor-jeddah/,Service,عمال نقل عفش جدة,عمالة نقل أثاث,Transactional,Reduce 'نقل اثاث جدة' repetition (19x); redirect anchors 'عمال نقل عفش بجدة' here,-,
+/furniture-storage-warehouses-in-jeddah/,Service,تخزين عفش جدة,مستودعات تخزين أثاث,Transactional,Keep (verify service and warehouse location are real),Client confirmation,
+/guaranteed-furniture-moving-company-jeddah/,Service/Trust,نقل عفش مع الضمان جدة,شركة نقل عفش مضمونة,Commercial,Rewrite around actual written warranty terms; add inlinks (only 5),Client warranty policy,
+/blog/furniture-packing/,Service in blog,شركة تغليف عفش بجدة,تغليف أثاث,Transactional,Keep URL; treat as packing service page,-,Do not move URL
+/services/,Hub,خدمات نقل العفش بجدة,-,Navigational,Keep; add inlinks (only 4),-,
+/areas/,Hub,نقل عفش أحياء جدة,-,Navigational,Keep; potential destination for merged district pages,-,
+/areas/hayu-alsafa/,District,نقل عفش حي الصفا جدة,-,Transactional-hyperlocal,Keep; remove AggregateRating,-,
+/areas/{8 template-A pages},District (templated),نقل عفش حي {X} جدة,-,Transactional-hyperlocal,Enrich with original evidence OR merge into /areas/,GSC per-page impressions,Do not create more pages from this template
+/areas/{almarjan; alruwais; albasatin},District (templated),نقل عفش حي {X} جدة,-,Transactional-hyperlocal,Same as above,GSC,
+/areas/{alnaeem; alnahda; jeddah-to-al-hamdaniya},District (templated),نقل عفش حي {X} جدة,-,Transactional-hyperlocal,Same as above,GSC,
+/areas/{alfaysalia; alnakhil; alsaalihia; alrubwa; jeddah-to-alshaati},District,نقل عفش حي {X} جدة,-,Transactional-hyperlocal,Keep; remove Tailwind CDN (alrubwa); remove AggregateRating (alshaati),-,
+/cities/*,Intercity service,نقل عفش من جدة إلى {city},شحن عفش,Transactional,Keep; remove AggregateRating (riyadh; taif),-,
+/blog/furniture-moving-prices-in-Jeddah/,Info-commercial,أسعار نقل العفش بجدة,تكلفة نقل العفش,Commercial investigation,Replace prices with client-approved table,PRICES-source-of-truth.md filled by client,Do not publish unapproved prices
+/blog/best-moving-company-jeddah/,Informational,معايير اختيار شركة نقل عفش,كيف أختار شركة نقل,Informational,De-optimize head term; remove MovingCompany schema; link to /,-,Do not delete/redirect
+/blog/cheapest-furniture-moving-company-in-jeddah/,Informational,كيف توفر في تكلفة نقل العفش,عوامل سعر النقل,Informational,De-optimize 'ارخص شركة' (21x) and head term (19x),-,Do not delete/redirect
+/blog/how-to-choose-a-furniture-moving-company-in-jeddah/,Informational,كيف تختار شركة نقل عفش,-,Informational,Remove AggregateRating; check overlap with best-moving-company,GSC,
+/blog/{tips; steps; protect; without-damage; glass; materials; time; electrical},Informational,(per article),-,Informational,Keep; no new similar articles,-,
+/blog/comparison-between-furniture-moving-companies/,Informational (off-focus),مقارنة شركات نقل الأثاث,-,Informational,Low priority; keep,-,
+NEW (only if justified),-,-,-,-,No new pages recommended now. Possible later: a real 'سياسة الضمان والشروط' page and a 'أعمالنا/مشاريع' gallery of real jobs - both depend on client materials,Client materials,No new district/city/blog pages

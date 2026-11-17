@@ -1,5 +1,3 @@
-﻿Redirect 301 /furniture-lifting-crane-jeddah/ https://almukhtar-moving.com/furniture-moving-within-jeddah/
-Redirect 301 /furniture-lifting-crane-jeddah https://almukhtar-moving.com/furniture-moving-within-jeddah/
 Redirect 301 /cities/furniture-moving-company-in-jeddah-and-riyadh/ https://almukhtar-moving.com/cities/jeddah-to-riyadh/
 RewriteEngine On
 
@@ -175,3 +173,12 @@ Redirect gone /blog/home-furniture-moving-jeddah/
 Redirect gone /blog/home-furniture-moving-jeddah
 Redirect gone /moving-furniture-from-houses-and-villas-in-jeddah/
 Redirect gone /moving-furniture-from-houses-and-villas-in-jeddah
+# خدمة الونش غير مقدمة - الصفحة محذوفة نهائياً
+Redirect gone /furniture-lifting-crane-jeddah/
+Redirect gone /furniture-lifting-crane-jeddah
+
+# =============================================
+# 🔒 منع الوصول لملفات التطوير (ليست جزءاً من الموقع)
+# =============================================
+RedirectMatch 404 ^/(reports|\.vscode|node_modules|SEO-FORENSIC-AUDIT)(/.*)?$
+RedirectMatch 404 ^/(package\.json|package-lock\.json|tailwind\.config\.js|postcss\.config\.js|navbar\.html|footer\.html)$

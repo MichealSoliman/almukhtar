@@ -455,6 +455,5 @@
         document.querySelectorAll('.faq-question').forEach(question => { question.addEventListener('click', () => { const answer = question.nextElementSibling; const icon = question.querySelector('i'); answer.classList.toggle('active'); icon.classList.toggle('fa-chevron-down'); icon.classList.toggle('fa-chevron-up'); }); });
         document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function(e) { e.preventDefault(); const targetId = this.getAttribute('href'); if (targetId === '#') return; const targetElement = document.querySelector(targetId); if (targetElement) window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' }); }); });
     </script>
-<script src="/assets/js/services-dropdown.js?v=2" defer></script>
 </body>
 </html>
