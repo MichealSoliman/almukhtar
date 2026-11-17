@@ -45,139 +45,119 @@
 
     <!-- JSON-LD Structured Data Schemas (MovingCompany, Article, BreadcrumbList, FAQPage) -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "MovingCompany",
-      "@id": "https://almukhtar-moving.com/#organization",
-      "name": "شركة المختار - ارخص شركة نقل عفش بجدة",
-      "url": "https://almukhtar-moving.com/",
-      "logo": "https://almukhtar-moving.com/assets/img/logo.webp",
-      "image": "https://almukhtar-moving.com/assets/img/cheapest-furniture-moving-company-in-jeddah.webp",
-      "telephone": "+966561110020",
-      "priceRange": "300 - 1200 SAR",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "طريق الملك فهد, حي الصفا",
-        "addressLocality": "جدة",
-        "addressRegion": "مكة المكرمة",
-        "postalCode": "21577",
-        "addressCountry": "SA"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 21.543333,
-        "longitude": 39.172778
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "الرئيسية",
+                "item": "https://almukhtar-moving.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "المدونة",
+                "item": "https://almukhtar-moving.com/blog/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "ارخص شركة نقل عفش بجدة",
+                "item": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/#article",
+            "isPartOf": {
+              "@type": "WebPage",
+              "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/"
+            },
+            "headline": "ارخص شركة نقل عفش بجدة أسعار تبدأ من 300 ريال | المختار",
+            "description": "دليل تفصيلي شامل للوصول إلى ارخص شركة نقل عفش بجدة مع التعرف على خطط الأسعار الاقتصادية والضمانات الشاملة وحماية الأثاث أثناء النقل.",
+            "image": "https://almukhtar-moving.com/assets/img/cheapest-furniture-moving-company-in-jeddah.webp",
+            "inLanguage": "ar-SA",
+            "mainEntityOfPage": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/",
+            "author": {
+              "@type": "MovingCompany",
+              "@id": "https://almukhtar-moving.com/#organization",
+              "name": "شركة المختار لنقل العفش بجدة",
+              "url": "https://almukhtar-moving.com/",
+              "telephone": "+966561110020",
+              "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+            },
+            "publisher": {
+              "@type": "MovingCompany",
+              "@id": "https://almukhtar-moving.com/#organization",
+              "name": "شركة المختار لنقل العفش بجدة",
+              "url": "https://almukhtar-moving.com/",
+              "telephone": "+966561110020",
+              "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "كيف أحصل على ارخص شركة نقل عفش بجدة مع الضمان؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "توفر شركة المختار ارخص أسعار نقل العفش بجدة بدءاً من 300 ريال مع تقديم عقد رسمي وضمان خطي 100% يضمن سلامة الأثاث من الفك حتى التركيب."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "ما هي التكلفة التقديرية لنقل العفش في جدة لدى شركة المختار؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "تبدأ الأسعار لنقل الغرفة الواحدة أو الأغراض البسيطة من 300 ريال، بينما تتراوح تكلفة نقل الشقق الصغيرة بين 400 إلى 600 ريال، والشقق الكبيرة بين 700 إلى 900 ريال شريطة الفك والتغليف والنقل."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل تشمل الأسعار الرخيصة خدمات الفك والتركيب والتغليف؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، تقدم شركة المختار باقات توفيرية شاملة تتضمن الفك بأيدي نجارين محترفين وتغليف الأثاث بفقاعات الهواء والكرتون المقوى والنقل بسيارات دينا مغلقة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يوجد أي مبالغ أو رسوم خفية تضاف بعد الاتفاق؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "إطلاقاً، نحن في شركة المختار نلتزم بالشفافية المطلقة. السعر المحدد في المعاينة الأولية أو الاتفاق هو السعر النهائي دون أي زيادة بعد إتمام الخدمة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "ما هي الأحياء التي تغطيها خدمات نقل العفش الرخيصة بجدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نغطي كافة أحياء جدة بما فيها الصفا، المروة، النعيم، الروضة، الزهراء، الحمراء، الشاطئ، الحمدانية، السامر، ابحر الشمالية والجنوبية، وكافة المناطق المجاورة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "كيف يمكنني طلب خصم ارخص شركة نقل عفش بجدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكنك الاتصال المباشر برقم 0561110020 أو المراسلة عبر الواتساب للحصول على خصم فوري يصل إلى 20% وحجز موعد المعاينة المجانية."
+                }
+              }
+            ]
+          }
+        ]
       }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "الرئيسية",
-          "item": "https://almukhtar-moving.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "المدونة",
-          "item": "https://almukhtar-moving.com/blog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "ارخص شركة نقل عفش بجدة",
-          "item": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/"
-        }
-      ]
-    },
-    {
-      "@type": "Article",
-      "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/#article",
-      "isPartOf": {
-        "@type": "WebPage",
-        "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/"
-      },
-      "headline": "ارخص شركة نقل عفش بجدة أسعار تبدأ من 300 ريال | المختار",
-      "description": "دليل تفصيلي شامل للوصول إلى ارخص شركة نقل عفش بجدة مع التعرف على خطط الأسعار الاقتصادية والضمانات الشاملة وحماية الأثاث أثناء النقل.",
-      "image": "https://almukhtar-moving.com/assets/img/cheapest-furniture-moving-company-in-jeddah.webp",
-      "inLanguage": "ar-SA",
-      "mainEntityOfPage": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/",
-      "author": {
-        "@type": "Organization",
-        "name": "شركة المختار لنقل العفش بجدة",
-        "url": "https://almukhtar-moving.com/"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "شركة المختار لنقل العفش بجدة",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://almukhtar-moving.com/assets/img/logo.webp"
-        }
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://almukhtar-moving.com/blog/cheapest-furniture-moving-company-in-jeddah/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "كيف أحصل على ارخص شركة نقل عفش بجدة مع الضمان؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "توفر شركة المختار ارخص أسعار نقل العفش بجدة بدءاً من 300 ريال مع تقديم عقد رسمي وضمان خطي 100% يضمن سلامة الأثاث من الفك حتى التركيب."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "ما هي التكلفة التقديرية لنقل العفش في جدة لدى شركة المختار؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "تبدأ الأسعار لنقل الغرفة الواحدة أو الأغراض البسيطة من 300 ريال، بينما تتراوح تكلفة نقل الشقق الصغيرة بين 400 إلى 600 ريال، والشقق الكبيرة بين 700 إلى 900 ريال شريطة الفك والتغليف والنقل."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل تشمل الأسعار الرخيصة خدمات الفك والتركيب والتغليف؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "نعم، تقدم شركة المختار باقات توفيرية شاملة تتضمن الفك بأيدي نجارين محترفين وتغليف الأثاث بفقاعات الهواء والكرتون المقوى والنقل بسيارات دينا مغلقة."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل يوجد أي مبالغ أو رسوم خفية تضاف بعد الاتفاق؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "إطلاقاً، نحن في شركة المختار نلتزم بالشفافية المطلقة. السعر المحدد في المعاينة الأولية أو الاتفاق هو السعر النهائي دون أي زيادة بعد إتمام الخدمة."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "ما هي الأحياء التي تغطيها خدمات نقل العفش الرخيصة بجدة؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "نغطي كافة أحياء جدة بما فيها الصفا، المروة، النعيم، الروضة، الزهراء، الحمراء، الشاطئ، الحمدانية، السامر، ابحر الشمالية والجنوبية، وكافة المناطق المجاورة."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "كيف يمكنني طلب خصم ارخص شركة نقل عفش بجدة؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "يمكنك الاتصال المباشر برقم 0561110020 أو المراسلة عبر الواتساب للحصول على خصم فوري يصل إلى 20% وحجز موعد المعاينة المجانية."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
+    </script>
 
     <!-- Custom Fonts & Project CSS -->
     <style>
@@ -633,7 +613,7 @@
                                     </tr>
                                     <tr class="hover:bg-blue-50/50">
                                         <td class="p-4 font-bold text-blue-900">نقل فيلا كاملة أو دوبلكس</td>
-                                        <td class="p-4 text-xs text-slate-600">فريق متكامل + أوناش رفع + تغليف ممتاز</td>
+                                        <td class="p-4 text-xs text-slate-600">فريق متكامل + تغليف ممتاز</td>
                                         <td class="p-4 font-black text-emerald-600 text-lg">1200 - 1800 ريال</td>
                                         <td class="p-4"><span class="badge-check"><i class="fas fa-check"></i> باقة VIP</span></td>
                                     </tr>
@@ -700,7 +680,6 @@
                                     <ul class="text-xs space-y-2 text-slate-700 font-semibold mb-6">
                                         <li><i class="fas fa-check text-emerald-500 ml-1"></i> 2 إلى 3 شاحنات دينا مغلقة</li>
                                         <li><i class="fas fa-check text-emerald-500 ml-1"></i> طاقم كامل نجارين وعمالة</li>
-                                        <li><i class="fas fa-check text-emerald-500 ml-1"></i> استخدام أوناش رفع الأثاث</li>
                                         <li><i class="fas fa-check text-emerald-500 ml-1"></i> تغليف التكييفات والأجهزة</li>
                                     </ul>
                                 </div>

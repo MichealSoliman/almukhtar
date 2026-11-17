@@ -65,58 +65,14 @@
     <!-- =========================
 LocalBusiness Schema
 ========================= -->
-    <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "@id":"https://almukhtar-moving.com/#business",
-  "name":"شركة المختار لنقل العفش وفك وتركيب الأثاث",
-  "url":"https://almukhtar-moving.com/",
-  "telephone":"+966561110020",
-  "image":"https://almukhtar-moving.com/assets/img/logo.webp",
-  "address":{
-    "@type":"PostalAddress",
-    "addressLocality":"جدة",
-    "addressCountry":"SA"
-  },
-  "areaServed":{
-    "@type":"City",
-    "name":"جدة"
-  },
-  "openingHours":"Mo-Su 00:00-23:59"
-}
-</script>
 
     <!-- =========================
 Organization Schema
 ========================= -->
-    <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"Organization",
-  "@id":"https://almukhtar-moving.com/#organization",
-  "name":"شركة المختار",
-  "url":"https://almukhtar-moving.com/",
-  "logo":"https://almukhtar-moving.com/assets/img/logo.webp",
-  "telephone":"+966561110020"
-}
-</script>
 
     <!-- =========================
 Moving Company Schema
 ========================= -->
-    <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"MovingCompany",
-  "@id":"https://almukhtar-moving.com/#movingcompany",
-  "name":"شركة المختار",
-  "url":"https://almukhtar-moving.com/",
-  "telephone":"+966561110020",
-  "areaServed":"Jeddah",
-  "serviceType":"Furniture Dismantling and Assembly"
-}
-</script>
 
     <!-- =========================
 WebPage Schema
@@ -136,17 +92,22 @@ WebPage Schema
 Service Schema
 ========================= -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "فك وتركيب الأثاث بجدة",
-  "description": "خدمة احترافية لفك وتركيب غرف النوم والمطابخ والمجالس وأثاث ايكيا داخل جدة بواسطة فنيين متخصصين.",
-  "url": "https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/",
-  "provider": {
-    "@id": "https://almukhtar-moving.com/#business"
-  }
-}
-</script>
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "فك وتركيب الأثاث بجدة",
+        "description": "خدمة احترافية لفك وتركيب غرف النوم والمطابخ والمجالس وأثاث ايكيا داخل جدة بواسطة فنيين متخصصين.",
+        "url": "https://almukhtar-moving.com/furniture-dismantling-and-assembly-in-jeddah/",
+        "provider": {
+          "@id": "https://almukhtar-moving.com/#organization",
+          "@type": "MovingCompany",
+          "name": "شركة المختار لنقل العفش بجدة",
+          "url": "https://almukhtar-moving.com/",
+          "telephone": "+966561110020",
+          "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+        }
+      }
+    </script>
 
     <!-- =========================
 Breadcrumb Schema
@@ -281,22 +242,6 @@ FAQ Schema
     <!-- =========================
 Contact Point Schema
 ========================= -->
-    <script type="application/ld+json">
-{
- "@context":"https://schema.org",
- "@type":"Organization",
- "name":"شركة المختار",
- "contactPoint":[
-   {
-     "@type":"ContactPoint",
-     "telephone":"+966561110020",
-     "contactType":"customer service",
-     "areaServed":"SA",
-     "availableLanguage":["Arabic"]
-   }
- ]
-}
-</script>
 
     <!-- =========================
 ItemList Services Schema

@@ -59,87 +59,210 @@
     <link rel="stylesheet" href="../style.css">
     
     <script type="application/ld+json">
-    {
-      "@context":"https://schema.org",
-      "@graph":[
-        {
-          "@type":"Organization",
-          "@id":"https://almukhtar-moving.com/#organization",
-          "name":"شركة المختار لنقل العفش",
-          "url":"https://almukhtar-moving.com/",
-          "logo":{"@type":"ImageObject","url":"https://almukhtar-moving.com/assets/img/logo.webp"},
-          "telephone":"+966561110020"
-        },
-        {
-          "@type":"MovingCompany",
-          "@id":"https://almukhtar-moving.com/#movingcompany",
-          "name":"شركة نقل عفش شقق بجدة - المختار",
-          "url":"https://almukhtar-moving.com/apartment-furniture-moving-jeddah/",
-          "image":"https://almukhtar-moving.com/assets/img/furniture-moving-in-Jeddah.webp",
-          "telephone":"+966561110020",
-          "priceRange":"$$",
-          "description":"نقل عفش شقق بجدة مع تجهيز الأثاث وفكه وتغليفه وتحميله ونقله إلى الشقة الجديدة، مع مراعاة الأدوار والمصاعد والمداخل حسب احتياج النقل.",
-          "address":{"@type":"PostalAddress","addressLocality":"جدة","addressRegion":"مكة المكرمة","addressCountry":"SA"},
-          "areaServed":[{"@type":"City","name":"جدة"}]
-        },
-        {
-          "@type":"Service",
-          "@id":"https://almukhtar-moving.com/#service",
-          "name":"نقل عفش شقق بجدة",
-          "serviceType":"نقل عفش الشقق",
-          "provider":{"@id":"https://almukhtar-moving.com/#movingcompany"},
-          "areaServed":{"@type":"City","name":"جدة"}
-        },
-        {
-          "@type":"FAQPage",
-          "@id":"https://almukhtar-moving.com/#faq",
-          "mainEntity":[
-            {"@type":"Question","name":"ما الذي تشمل خدمة نقل عفش الشقق بجدة؟","acceptedAnswer":{"@type":"Answer","text":"يمكن أن تشمل نقل غرف النوم والكنب والمجالس والطاولات والأجهزة المنزلية والقطع الأخرى، مع إمكانية إضافة الفك والتغليف والتركيب حسب الاتفاق."}},
-            {"@type":"Question","name":"هل يمكن نقل عفش شقة كاملة؟","acceptedAnswer":{"@type":"Answer","text":"نعم، يمكن نقل محتويات الشقة بالكامل بعد تحديد كمية الأثاث والخدمات المطلوبة."}},
-            {"@type":"Question","name":"هل خدمة نقل الشقق تشمل الفك والتركيب؟","acceptedAnswer":{"@type":"Answer","text":"يعتمد ذلك على نطاق الخدمة المتفق عليه. يجب التأكد من وجود الفك والتركيب ضمن العرض قبل بدء العمل."}},
-            {"@type":"Question","name":"هل يتم تغليف الأثاث قبل النقل؟","acceptedAnswer":{"@type":"Answer","text":"يمكن تغليف القطع التي تحتاج إلى حماية، ويختلف مستوى التغليف حسب نوع الأثاث وحساسيته."}},
-            {"@type":"Question","name":"هل يمكن نقل العفش من دور مرتفع؟","acceptedAnswer":{"@type":"Answer","text":"يمكن تحديد طريقة النقل بناءً على رقم الدور ووجود المصعد وأبعاد الأثاث والمداخل والسلالم."}},
-            {"@type":"Question","name":"هل يمكن نقل عفش شقة بدون مصعد؟","acceptedAnswer":{"@type":"Answer","text":"يمكن تقييم إمكانية استخدام السلالم بحسب عدد الطوابق وحجم القطع وممرات المبنى، مع تحديد ظروف الوصول قبل الاتفاق."}},
-            {"@type":"Question","name":"هل يمكن نقل العفش بالمصعد؟","acceptedAnswer":{"@type":"Answer","text":"نعم، إذا كانت أبعاد المصعد تسمح بإدخال القطع. وقد تحتاج بعض القطع الكبيرة إلى الفك أو إلى طريقة أخرى مناسبة."}},
-            {"@type":"Question","name":"هل يتم نقل الدواليب الكبيرة؟","acceptedAnswer":{"@type":"Answer","text":"يمكن نقلها بعد تقييم حجمها وطريقة تركيبها والمداخل التي ستمر من خلالها، وقد تحتاج إلى فك بعض الأجزاء."}},
-            {"@type":"Question","name":"هل يمكن نقل غرف النوم ضمن نقل الشقة؟","acceptedAnswer":{"@type":"Answer","text":"نعم، ويمكن نقل الأسرة والدواليب والتسريحات والمرايا والمراتب والكومودينو حسب نطاق الخدمة."}},
-            {"@type":"Question","name":"هل يمكن نقل مطبخ الشقة؟","acceptedAnswer":{"@type":"Answer","text":"يمكن نقل مكونات المطبخ القابلة للفك والنقل حسب تصميمها وحالتها، مع التعامل المناسب مع توصيلات المياه والكهرباء والغاز عند الحاجة."}},
-            {"@type":"Question","name":"هل يتم نقل الأجهزة المنزلية؟","acceptedAnswer":{"@type":"Answer","text":"يمكن نقل الأجهزة المناسبة للنقل حسب تعليمات كل جهاز، مع فصل التوصيلات التي تتطلب تدخلًا متخصصًا."}},
-            {"@type":"Question","name":"هل يمكن نقل شقة مفروشة؟","acceptedAnswer":{"@type":"Answer","text":"نعم، ويمكن تحديد قطع الأثاث والمحتويات المطلوب نقلها، مع فصل الأغراض الشخصية قبل التحميل."}},
-            {"@type":"Question","name":"هل يمكن نقل العفش من شقة إلى أخرى داخل جدة؟","acceptedAnswer":{"@type":"Answer","text":"نعم، يمكن تنظيم النقل بين الشقق داخل جدة وفق موقع الاستلام والوصول وكمية الأثاث والخدمات المطلوبة."}},
-            {"@type":"Question","name":"هل تختلف تكلفة نقل الشقق حسب عدد الغرف؟","acceptedAnswer":{"@type":"Answer","text":"نعم، لأن عدد الغرف يرتبط عادة بكمية الأثاث، لكن التكلفة تتأثر أيضًا بحجم القطع والمسافة والطوابق والفك والتغليف والتركيب."}},
-            {"@type":"Question","name":"هل يمكن معرفة تكلفة النقل من الصور؟","acceptedAnswer":{"@type":"Answer","text":"يمكن أن تساعد الصور في تقدير حجم الأثاث بصورة مبدئية، لكن ظروف المبنى والمداخل والمصاعد قد تؤثر أيضًا على التكلفة."}},
-            {"@type":"Question","name":"هل يجب إفراغ الدواليب قبل النقل؟","acceptedAnswer":{"@type":"Answer","text":"يفضل إفراغ الدواليب والأدراج لتقليل الوزن وحماية المحتويات وتسهيل حركة الأثاث."}},
-            {"@type":"Question","name":"هل يمكن نقل العفش دون تغليف؟","acceptedAnswer":{"@type":"Answer","text":"قد يمكن نقل بعض القطع دون تغليف كامل، لكن القطع الحساسة أو القابلة للخدش تستفيد من الحماية المناسبة."}},
-            {"@type":"Question","name":"هل يمكن نقل العفش إلى شقة جديدة في مبنى متعدد الأدوار؟","acceptedAnswer":{"@type":"Answer","text":"نعم، بعد تحديد أبعاد المصعد والمداخل والسلالم والقطع المطلوب نقلها."}},
-            {"@type":"Question","name":"ما الذي يحدد وقت نقل الشقة؟","acceptedAnswer":{"@type":"Answer","text":"يعتمد الوقت على كمية الأثاث والحاجة إلى الفك والتغليف والطابق والمصعد والمسافة وسهولة الوصول إلى الموقعين."}}
-          ]
-        },
-        {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "الرئيسية",
-              "item": "https://almukhtar-moving.com/"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "@id": "https://almukhtar-moving.com/#service",
+            "name": "نقل عفش شقق بجدة",
+            "serviceType": "نقل عفش الشقق",
+            "provider": {
+              "@id": "https://almukhtar-moving.com/#organization",
+              "@type": "MovingCompany",
+              "name": "شركة المختار لنقل العفش بجدة",
+              "url": "https://almukhtar-moving.com/",
+              "telephone": "+966561110020",
+              "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
             },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "خدماتنا",
-              "item": "https://almukhtar-moving.com/services/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "نقل عفش شقق بجدة",
-              "item": "https://almukhtar-moving.com/apartment-furniture-moving-jeddah/"
+            "areaServed": {
+              "@type": "City",
+              "name": "جدة"
             }
-          ]
-        }
-      ]
-    }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://almukhtar-moving.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "ما الذي تشمل خدمة نقل عفش الشقق بجدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن أن تشمل نقل غرف النوم والكنب والمجالس والطاولات والأجهزة المنزلية والقطع الأخرى، مع إمكانية إضافة الفك والتغليف والتركيب حسب الاتفاق."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل عفش شقة كاملة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، يمكن نقل محتويات الشقة بالكامل بعد تحديد كمية الأثاث والخدمات المطلوبة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل خدمة نقل الشقق تشمل الفك والتركيب؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يعتمد ذلك على نطاق الخدمة المتفق عليه. يجب التأكد من وجود الفك والتركيب ضمن العرض قبل بدء العمل."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يتم تغليف الأثاث قبل النقل؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن تغليف القطع التي تحتاج إلى حماية، ويختلف مستوى التغليف حسب نوع الأثاث وحساسيته."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل العفش من دور مرتفع؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن تحديد طريقة النقل بناءً على رقم الدور ووجود المصعد وأبعاد الأثاث والمداخل والسلالم."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل عفش شقة بدون مصعد؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن تقييم إمكانية استخدام السلالم بحسب عدد الطوابق وحجم القطع وممرات المبنى، مع تحديد ظروف الوصول قبل الاتفاق."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل العفش بالمصعد؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، إذا كانت أبعاد المصعد تسمح بإدخال القطع. وقد تحتاج بعض القطع الكبيرة إلى الفك أو إلى طريقة أخرى مناسبة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يتم نقل الدواليب الكبيرة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن نقلها بعد تقييم حجمها وطريقة تركيبها والمداخل التي ستمر من خلالها، وقد تحتاج إلى فك بعض الأجزاء."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل غرف النوم ضمن نقل الشقة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، ويمكن نقل الأسرة والدواليب والتسريحات والمرايا والمراتب والكومودينو حسب نطاق الخدمة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل مطبخ الشقة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن نقل مكونات المطبخ القابلة للفك والنقل حسب تصميمها وحالتها، مع التعامل المناسب مع توصيلات المياه والكهرباء والغاز عند الحاجة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يتم نقل الأجهزة المنزلية؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن نقل الأجهزة المناسبة للنقل حسب تعليمات كل جهاز، مع فصل التوصيلات التي تتطلب تدخلًا متخصصًا."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل شقة مفروشة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، ويمكن تحديد قطع الأثاث والمحتويات المطلوب نقلها، مع فصل الأغراض الشخصية قبل التحميل."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل العفش من شقة إلى أخرى داخل جدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، يمكن تنظيم النقل بين الشقق داخل جدة وفق موقع الاستلام والوصول وكمية الأثاث والخدمات المطلوبة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل تختلف تكلفة نقل الشقق حسب عدد الغرف؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، لأن عدد الغرف يرتبط عادة بكمية الأثاث، لكن التكلفة تتأثر أيضًا بحجم القطع والمسافة والطوابق والفك والتغليف والتركيب."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن معرفة تكلفة النقل من الصور؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يمكن أن تساعد الصور في تقدير حجم الأثاث بصورة مبدئية، لكن ظروف المبنى والمداخل والمصاعد قد تؤثر أيضًا على التكلفة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يجب إفراغ الدواليب قبل النقل؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يفضل إفراغ الدواليب والأدراج لتقليل الوزن وحماية المحتويات وتسهيل حركة الأثاث."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل العفش دون تغليف؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "قد يمكن نقل بعض القطع دون تغليف كامل، لكن القطع الحساسة أو القابلة للخدش تستفيد من الحماية المناسبة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن نقل العفش إلى شقة جديدة في مبنى متعدد الأدوار؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، بعد تحديد أبعاد المصعد والمداخل والسلالم والقطع المطلوب نقلها."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "ما الذي يحدد وقت نقل الشقة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يعتمد الوقت على كمية الأثاث والحاجة إلى الفك والتغليف والطابق والمصعد والمسافة وسهولة الوصول إلى الموقعين."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "الرئيسية",
+                "item": "https://almukhtar-moving.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "خدماتنا",
+                "item": "https://almukhtar-moving.com/services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "نقل عفش شقق بجدة",
+                "item": "https://almukhtar-moving.com/apartment-furniture-moving-jeddah/"
+              }
+            ]
+          }
+        ]
+      }
     </script>
     
     <style>

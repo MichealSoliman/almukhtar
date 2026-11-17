@@ -58,74 +58,85 @@
       <link rel="preload" href="../style.css" as="style">
     <link rel="stylesheet" href="../style.css">
     <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@graph":[
-    {
-      "@type":"Organization",
-      "@id":"https://almukhtar-moving.com/#organization",
-      "name":"شركة المختار لنقل العفش",
-      "url":"https://almukhtar-moving.com/",
-      "logo":{"@type":"ImageObject","url":"https://almukhtar-moving.com/assets/img/logo.webp"},
-      "telephone":"+966561110020"
-    },
-    {
-      "@type":"MovingCompany",
-      "@id":"https://almukhtar-moving.com/#movingcompany",
-      "name":"شركة نقل مكاتب بجدة - المختار",
-      "url":"https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/",
-      "image":"https://almukhtar-moving.com/assets/img/office-and-company-relocation-in-jeddah.webp",
-      "telephone":"+966561110020",
-      "priceRange":"$$",
-      "description":"شركة نقل مكاتب والشركات بجدة متخصصة في نقل الأثاث المكتبي والفك والتركيب والتغليف.",
-      "address":{"@type":"PostalAddress","addressLocality":"جدة","addressRegion":"مكة المكرمة","addressCountry":"SA"},
-      "areaServed":[{"@type":"City","name":"جدة"}]
-    },
-    {
-      "@type":"Service",
-      "@id":"https://almukhtar-moving.com/#service",
-      "name":"نقل المكاتب والشركات بجدة",
-      "description":"خدمة نقل المكاتب والشركات بجدة مع فك وتركيب وتغليف الأثاث المكتبي بأمان واحترافية.",
-      "url":"https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/",
-      "serviceType":"نقل المكاتب والشركات",
-      "provider":{"@id":"https://almukhtar-moving.com/#movingcompany"},
-      "areaServed":{"@type":"City","name":"جدة"}
-    },
-    {
-      "@type":"FAQPage",
-      "@id":"https://almukhtar-moving.com/#faq",
-      "mainEntity":[
-        {"@type":"Question","name":"كم سعر نقل المكاتب بجدة؟","acceptedAnswer":{"@type":"Answer","text":"تختلف الأسعار حسب حجم المكتب وعدد القطع والمسافة."}},
-        {"@type":"Question","name":"هل توفرون فك وتركيب الأثاث المكتبي؟","acceptedAnswer":{"@type":"Answer","text":"نعم لدينا فريق متخصص لفك وتركيب جميع أنواع الأثاث المكتبي."}},
-        {"@type":"Question","name":"هل تقومون بتغليف الأجهزة الإلكترونية؟","acceptedAnswer":{"@type":"Answer","text":"نعم نوفر تغليفاً خاصاً للكمبيوترات والطابعات والسيرفرات."}}
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "الرئيسية",
-          "item": "https://almukhtar-moving.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "خدماتنا",
-          "item": "https://almukhtar-moving.com/services/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "نقل المكاتب والشركات بجدة",
-          "item": "https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/"
-        }
-      ]
-    }
-  ]
-}
-</script>
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "@id": "https://almukhtar-moving.com/#service",
+            "name": "نقل المكاتب والشركات بجدة",
+            "description": "خدمة نقل المكاتب والشركات بجدة مع فك وتركيب وتغليف الأثاث المكتبي بأمان واحترافية.",
+            "url": "https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/",
+            "serviceType": "نقل المكاتب والشركات",
+            "provider": {
+              "@id": "https://almukhtar-moving.com/#organization",
+              "@type": "MovingCompany",
+              "name": "شركة المختار لنقل العفش بجدة",
+              "url": "https://almukhtar-moving.com/",
+              "telephone": "+966561110020",
+              "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "جدة"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://almukhtar-moving.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "كم سعر نقل المكاتب بجدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "تختلف الأسعار حسب حجم المكتب وعدد القطع والمسافة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل توفرون فك وتركيب الأثاث المكتبي؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم لدينا فريق متخصص لفك وتركيب جميع أنواع الأثاث المكتبي."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل تقومون بتغليف الأجهزة الإلكترونية؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم نوفر تغليفاً خاصاً للكمبيوترات والطابعات والسيرفرات."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "الرئيسية",
+                "item": "https://almukhtar-moving.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "خدماتنا",
+                "item": "https://almukhtar-moving.com/services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "نقل المكاتب والشركات بجدة",
+                "item": "https://almukhtar-moving.com/office-and-company-relocation-in-jeddah/"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
     
     <style>
         :root {

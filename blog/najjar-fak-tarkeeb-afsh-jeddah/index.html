@@ -80,78 +80,56 @@
 <link rel="stylesheet" href="../../style.css">
 ```html
 <!-- Local Business Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://almukhtar-moving.com/blog/najjar-fak-tarkeeb-afsh-jeddah/#business",
-  "name": "نجار فك وتركيب عفش بجدة | شركة المختار",
-  "image": "https://almukhtar-moving.com/assets/img/najjar-fak-tarkeeb-afsh-jeddah.webp",
-  "url": "https://almukhtar-moving.com/blog/najjar-fak-tarkeeb-afsh-jeddah/",
-  "telephone": "+966561110020",
-  "priceRange": "$$",
-  "description": "أفضل خدمات نجار فك وتركيب عفش بجدة تشمل فك وتركيب غرف النوم والمطابخ والمكاتب وأثاث ايكيا بأحدث الأدوات وعلى يد فنيين محترفين.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "جدة",
-    "addressRegion": "مكة المكرمة",
-    "addressCountry": "SA"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "جدة"
-  },
-  "serviceType": [
-    "فك وتركيب العفش",
-    "تركيب غرف النوم",
-    "تركيب المطابخ",
-    "تركيب أثاث ايكيا"
-  ],
-  "openingHours": "Mo-Su 00:00-23:59"
-}
-</script>
 
 <!-- Professional Service Schema -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "@id": "https://almukhtar-moving.com/blog/najjar-fak-tarkeeb-afsh-jeddah/#service",
-  "name": "نجار فك وتركيب عفش بجدة",
-  "url": "https://almukhtar-moving.com/blog/najjar-fak-tarkeeb-afsh-jeddah/",
-  "provider": {
-    "@type": "Organization",
-    "name": "شركة المختار لنقل العفش"
-  },
-  "description": "خدمات احترافية لفك وتركيب جميع أنواع الأثاث المنزلي والمكتبي داخل جدة.",
-  "areaServed": {
-    "@type": "City",
-    "name": "جدة"
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://almukhtar-moving.com/blog/najjar-fak-tarkeeb-afsh-jeddah/#service",
+    "name": "نجار فك وتركيب عفش بجدة",
+    "url": "https://almukhtar-moving.com/blog/najjar-fak-tarkeeb-afsh-jeddah/",
+    "provider": {
+      "@type": "MovingCompany",
+      "@id": "https://almukhtar-moving.com/#organization",
+      "name": "شركة المختار لنقل العفش بجدة",
+      "url": "https://almukhtar-moving.com/",
+      "telephone": "+966561110020",
+      "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+    },
+    "description": "خدمات احترافية لفك وتركيب جميع أنواع الأثاث المنزلي والمكتبي داخل جدة.",
+    "areaServed": {
+      "@type": "City",
+      "name": "جدة"
+    }
   }
-}
 </script>
 
 <!-- Service Schema -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "فك وتركيب الأثاث بجدة",
-  "name": "نجار فك وتركيب عفش بجدة",
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "شركة المختار لنقل العفش"
-  },
-  "areaServed": {
-    "@type": "City",
-    "name": "جدة"
-  },
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "SAR",
-    "availability": "https://schema.org/InStock"
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "فك وتركيب الأثاث بجدة",
+    "name": "نجار فك وتركيب عفش بجدة",
+    "provider": {
+      "@type": "MovingCompany",
+      "@id": "https://almukhtar-moving.com/#organization",
+      "name": "شركة المختار لنقل العفش بجدة",
+      "url": "https://almukhtar-moving.com/",
+      "telephone": "+966561110020",
+      "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "جدة"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "SAR",
+      "availability": "https://schema.org/InStock"
+    }
   }
-}
 </script>
 
 <!-- FAQ Schema -->
@@ -249,20 +227,6 @@
 </script>
 
 <!-- Organization Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "شركة المختار لنقل العفش",
-  "url": "https://almukhtar-moving.com/",
-  "logo": "https://almukhtar-moving.com/assets/img/logo.webp",
-  "sameAs": [
-    "https://facebook.com/",
-    "https://instagram.com/",
-    "https://twitter.com/"
-  ]
-}
-</script>
 ```
 
    <style>

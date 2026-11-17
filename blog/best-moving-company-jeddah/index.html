@@ -43,151 +43,137 @@
 
     <!-- JSON-LD Structured Data Schemas (MovingCompany, WebPage, BreadcrumbList, Article, FAQPage) -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "MovingCompany",
-      "@id": "https://almukhtar-moving.com/#organization",
-      "name": "شركة المختار لنقل العفش بجدة",
-      "url": "https://almukhtar-moving.com/",
-      "logo": "https://almukhtar-moving.com/assets/img/logo.webp",
-      "image": "https://almukhtar-moving.com/assets/img/logo.webp",
-      "telephone": "+966561110020",
-      "priceRange": "400 - 1500 SAR",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "طريق الملك فهد, حي الصفا",
-        "addressLocality": "جدة",
-        "addressRegion": "مكة المكرمة",
-        "postalCode": "21577",
-        "addressCountry": "SA"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#webpage",
+            "url": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/",
+            "name": "أفضل شركة نقل عفش بجدة | فك وتركيب وتغليف ونقل آمن",
+            "description": "تبحث عن أفضل شركة نقل عفش بجدة؟ شركة المختار تقدم نقل الأثاث مع الفك والتركيب والتغليف، سيارات مجهزة وفريق متخصص لخدمة المنازل والفلل والشقق داخل جدة.",
+            "inLanguage": "ar-SA",
+            "isPartOf": {
+              "@id": "https://almukhtar-moving.com/#website"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "الرئيسية",
+                "item": "https://almukhtar-moving.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "المدونة",
+                "item": "https://almukhtar-moving.com/blog/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "أفضل شركة نقل عفش بجدة",
+                "item": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/"
+              }
+            ]
+          },
+          {
+            "@type": "Article",
+            "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#article",
+            "isPartOf": {
+              "@type": "WebPage",
+              "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/"
+            },
+            "headline": "أفضل شركة نقل عفش بجدة لنقل أثاثك بأمان واحترافية",
+            "description": "دليل شامل لاختيار أفضل شركة نقل عفش بجدة مع خدمات الفك والتركيب والتغليف والنقل الآمن.",
+            "image": "https://almukhtar-moving.com/assets/img/logo.webp",
+            "inLanguage": "ar-SA",
+            "author": {
+              "@type": "MovingCompany",
+              "@id": "https://almukhtar-moving.com/#organization",
+              "name": "شركة المختار لنقل العفش بجدة",
+              "url": "https://almukhtar-moving.com/",
+              "telephone": "+966561110020",
+              "logo": "https://almukhtar-moving.com/assets/img/logo.webp"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "ما هي أفضل شركة نقل عفش بجدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "شركة المختار لنقل العفش بجدة تقدم خدمات نقل الأثاث للمنازل والشقق والفلل والمكاتب، مع إمكانية توفير الفك والتركيب والتغليف والنقل حسب احتياجات العميل."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "كيف أختار أفضل شركة نقل عفش في جدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "قارن بين خبرة الشركة، جودة العمالة، طريقة حماية الأثاث، السيارات المستخدمة، الخدمات الإضافية، وضوح السعر وتجارب العملاء الحقيقية."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل توفر شركة المختار فك وتركيب الأثاث؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، يمكن إضافة خدمة فك وتركيب الأثاث حسب نوع القطع المطلوبة للنقل."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل توفر الشركة تغليف العفش؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، يمكن توفير خدمة تغليف الأثاث باستخدام مواد مناسبة لطبيعة القطع التي تحتاج إلى حماية."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل تنقلون عفش الشقق والفلل؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، يمكن تنفيذ عمليات نقل الشقق والفلل والمنازل حسب حجم العملية والخدمات المطلوبة."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل تنقلون العفش داخل جميع أحياء جدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "توفر الشركة خدمة النقل داخل مناطق وأحياء جدة المختلفة، ويمكن التواصل لتأكيد إمكانية الوصول إلى الحي المطلوب."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "كم سعر نقل العفش بجدة؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "يختلف السعر حسب كمية الأثاث والمسافة والأدوار وخدمات الفك والتركيب والتغليف، لذلك يتم تحديد السعر وفق تفاصيل كل عملية."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "هل يمكن الحصول على عرض سعر قبل النقل؟",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "نعم، يمكن إرسال تفاصيل الأثاث ومواقع النقل للحصول على تقدير مبدئي، وقد تحتاج بعض الحالات إلى معاينة لتحديد السعر بشكل أدق."
+                }
+              }
+            ]
+          }
+        ]
       }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#webpage",
-      "url": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/",
-      "name": "أفضل شركة نقل عفش بجدة | فك وتركيب وتغليف ونقل آمن",
-      "description": "تبحث عن أفضل شركة نقل عفش بجدة؟ شركة المختار تقدم نقل الأثاث مع الفك والتركيب والتغليف، سيارات مجهزة وفريق متخصص لخدمة المنازل والفلل والشقق داخل جدة.",
-      "inLanguage": "ar-SA",
-      "isPartOf": {
-        "@id": "https://almukhtar-moving.com/#website"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "الرئيسية",
-          "item": "https://almukhtar-moving.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "المدونة",
-          "item": "https://almukhtar-moving.com/blog/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "أفضل شركة نقل عفش بجدة",
-          "item": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/"
-        }
-      ]
-    },
-    {
-      "@type": "Article",
-      "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#article",
-      "isPartOf": {
-        "@type": "WebPage",
-        "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/"
-      },
-      "headline": "أفضل شركة نقل عفش بجدة لنقل أثاثك بأمان واحترافية",
-      "description": "دليل شامل لاختيار أفضل شركة نقل عفش بجدة مع خدمات الفك والتركيب والتغليف والنقل الآمن.",
-      "image": "https://almukhtar-moving.com/assets/img/logo.webp",
-      "inLanguage": "ar-SA",
-      "author": {
-        "@type": "Organization",
-        "name": "شركة المختار لنقل العفش بجدة"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://almukhtar-moving.com/blog/best-moving-company-jeddah/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "ما هي أفضل شركة نقل عفش بجدة؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "شركة المختار لنقل العفش بجدة تقدم خدمات نقل الأثاث للمنازل والشقق والفلل والمكاتب، مع إمكانية توفير الفك والتركيب والتغليف والنقل حسب احتياجات العميل."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "كيف أختار أفضل شركة نقل عفش في جدة؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "قارن بين خبرة الشركة، جودة العمالة، طريقة حماية الأثاث، السيارات المستخدمة، الخدمات الإضافية، وضوح السعر وتجارب العملاء الحقيقية."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل توفر شركة المختار فك وتركيب الأثاث؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "نعم، يمكن إضافة خدمة فك وتركيب الأثاث حسب نوع القطع المطلوبة للنقل."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل توفر الشركة تغليف العفش؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "نعم، يمكن توفير خدمة تغليف الأثاث باستخدام مواد مناسبة لطبيعة القطع التي تحتاج إلى حماية."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل تنقلون عفش الشقق والفلل؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "نعم، يمكن تنفيذ عمليات نقل الشقق والفلل والمنازل حسب حجم العملية والخدمات المطلوبة."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل تنقلون العفش داخل جميع أحياء جدة؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "توفر الشركة خدمة النقل داخل مناطق وأحياء جدة المختلفة، ويمكن التواصل لتأكيد إمكانية الوصول إلى الحي المطلوب."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "كم سعر نقل العفش بجدة؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "يختلف السعر حسب كمية الأثاث والمسافة والأدوار وخدمات الفك والتركيب والتغليف، لذلك يتم تحديد السعر وفق تفاصيل كل عملية."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "هل يمكن الحصول على عرض سعر قبل النقل؟",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "نعم، يمكن إرسال تفاصيل الأثاث ومواقع النقل للحصول على تقدير مبدئي، وقد تحتاج بعض الحالات إلى معاينة لتحديد السعر بشكل أدق."
-          }
-        }
-      ]
-    }
-  ]
-}
-</script>
+    </script>
 
     <!-- Custom Fonts & Project CSS -->
     <style>
