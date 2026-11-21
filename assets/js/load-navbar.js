@@ -16,6 +16,7 @@ const siteServices = [
     { title: "نقل أثاث الفلل بجدة", url: "/villa-moving-in-jeddah/", icon: "fas fa-home" },
     { title: "نقل عفش المكاتب والشركات", url: "/office-and-company-relocation-in-jeddah/", icon: "fas fa-building" },
     { title: "فك وتركيب العفش والأثاث", url: "/furniture-dismantling-and-assembly-in-jeddah/", icon: "fas fa-tools" },
+    { title: "تغليف العفش بجدة", url: "/blog/furniture-packing/", icon: "fas fa-box-open" },
     { title: "فك وتركيب غرف النوم", url: "/services/bedroom-disassembly-installation/", icon: "fas fa-bed" },
     { title: "نقل وفك وتركيب المطابخ", url: "/moving-kitchens-in-jeddah/", icon: "fas fa-sink" },
     { title: "نقل المجالس العربية والكنب", url: "/moving-the-arab-councils-jeddah/", icon: "fas fa-chair" },

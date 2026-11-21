@@ -889,6 +889,12 @@
             </div>
             <span class="item-title">فك وتركيب العفش والأثاث</span>
         </a>
+        <a href="/blog/furniture-packing/" class="services-menu-item">
+            <div class="item-icon">
+                <i class="fas fa-box-open"></i>
+            </div>
+            <span class="item-title">تغليف العفش بجدة</span>
+        </a>
     
         <a href="/services/bedroom-disassembly-installation/" class="services-menu-item">
             <div class="item-icon">
@@ -1061,6 +1067,13 @@
             <span class="flex-item-text">
                 <i class="fas fa-tools text-blue-600"></i>
                 فك وتركيب العفش والأثاث
+            </span>
+            <i class="fas fa-angle-left arrow-indicator"></i>
+        </a>
+        <a href="/blog/furniture-packing/" class="mobile-sub-item">
+            <span class="flex-item-text">
+                <i class="fas fa-box-open text-blue-600"></i>
+                تغليف العفش بجدة
             </span>
             <i class="fas fa-angle-left arrow-indicator"></i>
         </a>
@@ -3104,56 +3117,6 @@
 
     <!-- ملاحظة: Schema الرئيسي موجود في <head> لتحسين اكتشافه من Googlebot -->
 
-    <!-- GTM Click Tracking Helper: Phone & WhatsApp -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        document.addEventListener('click', function (event) {
-            var link = event.target.closest('a');
-
-            if (!link || !link.href) {
-                return;
-            }
-
-            var href = link.getAttribute('href') || '';
-            var fullUrl = link.href || '';
-            var linkText = (link.innerText || link.textContent || '').trim();
-
-            // Phone click tracking
-            if (href.indexOf('tel:') === 0) {
-                window.dataLayer.push({
-                    event: 'call_click',
-                    event_category: 'Contact',
-                    event_action: 'Phone Click',
-                    event_label: href.replace('tel:', ''),
-                    phone_number: href.replace('tel:', ''),
-                    link_url: fullUrl,
-                    link_text: linkText,
-                    page_url: window.location.href
-                });
-            }
-
-            // WhatsApp click tracking
-            if (
-                href.indexOf('https://wa.me/') === 0 ||
-                href.indexOf('http://wa.me/') === 0 ||
-                href.indexOf('https://api.whatsapp.com/') === 0 ||
-                href.indexOf('http://api.whatsapp.com/') === 0
-            ) {
-                window.dataLayer.push({
-                    event: 'whatsapp_click',
-                    event_category: 'Contact',
-                    event_action: 'WhatsApp Click',
-                    event_label: href,
-                    whatsapp_url: href,
-                    link_url: fullUrl,
-                    link_text: linkText,
-                    page_url: window.location.href
-                });
-            }
-        });
-    </script>
-    <!-- End GTM Click Tracking Helper -->
     <script defer
         src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
         integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ=="
