@@ -214,8 +214,6 @@
         media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
         body {
@@ -326,7 +324,7 @@
                         <li>
                             <div class="flex items-center">
                                 <i class="fas fa-chevron-left text-emerald-200 mx-2"></i>
-                                <a href="../../areas/" class="text-sm text-emerald-200 hover:text-white">المدن</a>
+                                <a href="../../areas/" class="text-sm text-emerald-200 hover:text-white">الأحياء</a>
                             </div>
                         </li>
                     
@@ -340,11 +338,10 @@
                 </nav>
 
                 <!-- Article Title -->
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-6 leading-tight"
-                    data-aos="fade-up">شركة نقل عفش حي الفيصلية جدة | فك وتركيب وتغليف</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-6 leading-tight">شركة نقل عفش حي الفيصلية جدة | فك وتركيب وتغليف</h1>
 
                 <!-- Article Meta -->
-                <div class="flex flex-wrap justify-center items-center gap-4 mb-8 text-emerald-100" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex flex-wrap justify-center items-center gap-4 mb-8 text-emerald-100">
                     <div class="flex items-center">
                         <i class="fas fa-map-marker-alt ml-2"></i>
                         <span>الموقع: جنوب شرق جدة</span>
@@ -356,7 +353,7 @@
                 </div>
 
                 <!-- Call to Action -->
-                <div class="flex flex-col sm:flex-row justify-center gap-4 mt-10" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mt-10">
                     <a href="tel:0561110020"
                         class="bg-white text-emerald-700 px-8 py-3 rounded-full font-bold hover:bg-emerald-50 transition-all duration-300 flex items-center justify-center shadow-lg transform hover:-translate-y-1">
                         <i class="fas fa-phone ml-2"></i>
@@ -782,9 +779,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <script src="/assets/js/load-footer.js"></script>
 
     <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({ duration: 1000, once: true });
+        window.AOS && AOS.init({ duration: 1000, once: true });
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         mobileMenuBtn.addEventListener('click', () => { mobileMenu.classList.toggle('hidden'); });

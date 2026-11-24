@@ -107,8 +107,6 @@
         media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
 
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
         body { font-family: 'Cairo', sans-serif; }
@@ -137,24 +135,24 @@
 
         <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-4xl mx-auto text-center">
-                <div class="flex justify-center mb-6" data-aos="fade-down">
+                <div class="flex justify-center mb-6">
                     <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 inline-flex items-center text-white">
                         <i class="fas fa-map-marked-alt ml-2 text-yellow-300"></i>
                         <span class="text-sm font-medium">تغطية شاملة لكافة أحياء جدة</span>
                     </div>
                 </div>
 
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight" data-aos="fade-up" data-aos-delay="100">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
                     دليل خدمات نقل العفش في أحياء جدة
                     <span class="block text-blue-200 text-2xl md:text-3xl mt-3 font-semibold">بأعلى معايير الأمان وأفضل الأسعار التنافسية</span>
                 </h1>
 
-                <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
                     اختر حيك السكني واكتشف خدماتنا الميدانية المخصصة: فك وتركيب المطابخ وغرف النوم، تغليف احترافي، وشاحنات دينا مغلقة ومجهزة.
                 </p>
 
                 <!-- Search Box -->
-                <div class="max-w-xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="300">
+                <div class="max-w-xl mx-auto mb-8">
                     <div class="relative">
                         <input type="text" id="area-search" placeholder="ابحث باسم الحي (مثال: الصفا، السلامة، الشاطئ، الروضة...)"
                             class="w-full bg-white/15 backdrop-blur-md border border-white/30 rounded-2xl px-6 py-4 pr-12 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all shadow-lg text-lg">
@@ -165,7 +163,7 @@
                 </div>
 
                 <!-- Categories Tabs -->
-                <div class="flex flex-wrap justify-center gap-2 mb-8" data-aos="fade-up" data-aos-delay="400">
+                <div class="flex flex-wrap justify-center gap-2 mb-8">
                     <button onclick="filterAreas('all')" class="tab-btn active bg-white/10 hover:bg-white/20 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all">جميع أحياء جدة (20)</button>
                     <button onclick="filterAreas('north')" class="tab-btn bg-white/10 hover:bg-white/20 text-blue-100 hover:text-white px-5 py-2 rounded-full text-sm font-semibold transition-all">شمال جدة</button>
                     <button onclick="filterAreas('west-central')" class="tab-btn bg-white/10 hover:bg-white/20 text-blue-100 hover:text-white px-5 py-2 rounded-full text-sm font-semibold transition-all">وسط وغرب جدة</button>
@@ -173,7 +171,7 @@
                 </div>
 
                 <!-- Stats -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="500">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
                     <div class="bg-blue-900/60 backdrop-blur-md rounded-2xl p-4 text-center border border-white/10">
                         <div class="text-2xl font-bold text-white mb-1">20+</div>
                         <div class="text-blue-200 text-xs">حي مغطى بجدة</div>
@@ -249,9 +247,8 @@
     <script src="/assets/js/load-footer.js"></script>
 
     <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({ duration: 800, once: true });
+        window.AOS && AOS.init({ duration: 800, once: true });
 
         // Complete accurate data for all 20 neighborhoods
         const neighborhoods = [
